@@ -1,0 +1,997 @@
+@media (max-width: 1400px) {
+  a {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+  }
+  h2 {
+    font-size: 41px;
+  }
+  .Banner {
+    & .Video {
+      & .Cnt {
+        & h1 {
+          font-size: 61px;
+          line-height: 64px;
+        }
+      }
+    }
+    & ul {
+      li {
+        font-size: 19px;
+      }
+    }
+  }
+  .HomeAbout {
+    & .Count {
+      & h6 {
+        font-size: 49px;
+      }
+    }
+    & .AboutFeature {
+      .Bg {
+        padding: 13px;
+        border-radius: 14px;
+        gap: 10px;
+        h5 {
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .WhyChooice {
+    & .GridItem {
+      .BgDark,
+      .BgLight {
+        height: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 1333px) {
+  h2 {
+    font-size: 36px;
+  }
+  .SubP {
+    font-size: 20px;
+  }
+  .Banner {
+    & .Video {
+      & .Cnt {
+        & h1 {
+          font-size: 55px;
+          line-height: 58px;
+        }
+      }
+    }
+    ul {
+      max-width: 315px;
+      li {
+        font-size: 18px;
+      }
+    }
+  }
+  .HomeAbout {
+    & .Count {
+      margin: 25px 0;
+      & h6 {
+        font-size: 38px;
+      }
+      h5 {
+        font-size: 18px;
+      }
+    }
+    & .AboutFeature {
+      .row {
+        row-gap: 20px;
+      }
+      & .Bg {
+        h5 {
+          font-size: 18px;
+        }
+        i {
+          width: 27px;
+          height: 27px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .WhyChooice {
+    & .GridItem {
+      .BgDark,
+      .BgLight {
+        height: 100%;
+        .d-inline-flex {
+          flex-flow: row wrap;
+          gap: 20px !important;
+        }
+      }
+    }
+  }
+  .OurLoanProces {
+    & .Navigation {
+      & div {
+        span {
+          width: 50px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+    .TitleFlex {
+      gap: 10px;
+      i {
+        font-size: 50px;
+      }
+    }
+    .advisor-box {
+      padding: 21px;
+    }
+    & .bullet-list {
+      li {
+        margin-bottom: 8px;
+      }
+    }
+  }
+  .OurService {
+    & .Bg {
+      & .Cnt {
+        & .Title {
+          h2 {
+            width: 75%;
+            font-size: 22px;
+            height: 70px;
+          }
+        }
+        h3 {
+          margin: 10px 0;
+          font-size: 18px;
+          font-weight: 500;
+        }
+        .SubP {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+  footer {
+    & .Bg {
+      &::after {
+        width: 400px;
+        height: 400px;
+      }
+    }
+  }
+  .CallToAction {
+    & .Img {
+      & .Cnt {
+        h6 {
+          color: var(--white-color);
+          font-weight: 400;
+          font-size: 22px;
+        }
+        a {
+          padding: 8px 20px;
+          border-radius: 5px;
+          font-weight: 400;
+          width: 193px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  a {
+    font-size: 15px !important;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  .SubP {
+    font-size: 18px;
+  }
+  header {
+    & .container {
+      & .Logo {
+        img {
+          width: 150px;
+        }
+      }
+      .Btn-white {
+        padding: 7px 16px;
+      }
+    }
+  }
+  .Banner {
+    & .BtnFlex {
+      a {
+        padding: 7px 16px;
+        border-radius: 6px;
+      }
+    }
+    & .Video {
+      & .Cnt {
+        & h1 {
+          font-size: 50px;
+          line-height: 52px;
+        }
+        P {
+          margin: 10px 0;
+        }
+      }
+    }
+    ul {
+      flex-flow: row wrap;
+      background-color: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(7px);
+      gap: 10px;
+      width: 143px;
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+  .HomeAbout {
+    margin-top: 50px;
+    .SubP {
+      margin: 12px 0;
+    }
+    .row {
+      row-gap: 20px !important;
+    }
+    & .Count {
+      margin: 17px 0;
+      .col-md-6 {
+        padding: 0;
+      }
+      & h6 {
+        font-size: 30px;
+      }
+    }
+    & .AboutFeature {
+      & .Bg {
+        gap: 19px;
+      }
+    }
+  }
+  .WhyChooice {
+    margin: 50px 0;
+    & .Title {
+      & .row {
+        gap: 5px;
+        a {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  .OurLoanProces {
+    margin-top: 50px;
+    .ProccessSlider {
+      margin-top: 55px;
+    }
+    .Navigation {
+      top: -40px;
+      width: 100%;
+    }
+    .BtnNavigation {
+      width: 105%;
+      justify-content: space-between;
+      position: absolute;
+      right: 50%;
+      top: 30%;
+      transform: translateX(50%);
+    }
+    img {
+      max-width: 100%;
+    }
+    .col-lg-7 {
+      margin-top: 50px;
+    }
+  }
+  .OurService {
+    margin-top: 50px;
+  }
+  .Testimonial {
+    margin-top: 50px;
+    padding: 50px 0;
+    .Title {
+      .row {
+        row-gap: 10px;
+      }
+    }
+  }
+  .Partners {
+    border-bottom: none;
+    margin-top: 50px;
+    padding-bottom: 0;
+    .col-lg-4 {
+      margin-bottom: 40px;
+      padding: 0;
+    }
+    & .col-lg-8 {
+      padding: 0;
+      & .row {
+        margin: 30px 0;
+        & .col-lg-3 {
+          padding: 0;
+          img {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+  .CallToAction {
+    margin-top: 50px;
+    br {
+      display: contents;
+    }
+    & .Img {
+      & .Cnt {
+        h2 {
+          margin-bottom: 10px;
+        }
+        a {
+          padding: 8px 20px;
+          width: 193px;
+          margin-left: 0;
+        }
+        h6 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 50px;
+    & .Menu {
+      & .LogoSection {
+        text-align: start;
+        .FtLogo {
+          margin-top: 40px;
+          justify-content: start;
+          padding-bottom: 5px;
+          &::after {
+            right: auto;
+            left: 0;
+          }
+          ul {
+            text-align: start;
+          }
+        }
+      }
+    }
+    & .Bg {
+      &::after {
+        width: 270px;
+        height: 270px;
+      }
+      a {
+        padding-right: 0px;
+      }
+    }
+    .Copy {
+      padding: 20px 0;
+    }
+    .Social {
+      margin-top: 35px;
+      padding-bottom: 35px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  .Dropdown {
+    display: block;
+    text-align: center;
+    flex-flow: row wrap;
+    h3 {
+      display: none;
+    }
+
+    .DropdownToggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      cursor: pointer;
+    }
+
+    .DropdownCnt {
+      display: none;
+      text-align: center;
+      margin-top: 0px;
+      .container {
+        display: block;
+        width: 100%;
+      }
+      .row {
+        justify-content: center;
+      }
+      li {
+        margin: 5px 0;
+        opacity: 0.7;
+        width: 100% !important;
+        i {
+          display: none;
+        }
+      }
+    }
+
+    &.active {
+      .DropdownCnt {
+        display: block;
+      }
+    }
+  }
+  .Banner {
+    ul {
+      flex-flow: nowrap;
+      background-color: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(7px);
+      gap: 10px;
+      width: 250px;
+    }
+    .col-lg-4 {
+      margin-top: 15px;
+      justify-content: start;
+    }
+  }
+  header {
+    & .container {
+      .MobileNav {
+        display: flex;
+        flex-direction: column;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.4s ease, opacity 0.4s ease;
+        position: absolute;
+        background: #fff;
+        left: 0;
+        top: 64px;
+        width: 100%;
+        z-index: 9999;
+        padding: 0;
+      }
+
+      .MobileNav.active {
+        max-height: 500px;
+        opacity: 1;
+        padding: 15px 0;
+
+        li {
+          a {
+            color: var(--black-color);
+          }
+        }
+      }
+      .Btn-white {
+        display: none;
+      }
+    }
+    .MobBtn {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      span {
+        width: 25px;
+        height: 2px;
+        background-color: var(--white-color);
+      }
+    }
+    /* Active state */
+    .MobBtn.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .MobBtn.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .MobBtn.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(6px, -6px);
+    }
+  }
+  .HomeAbout {
+    & .Count {
+      margin: 40px 0;
+      & h6 {
+        font-size: 26px;
+      }
+    }
+  }
+  .Partners {
+    & .col-lg-8 {
+      & .row {
+        row-gap: 25px;
+        & .col-lg-3 {
+          img {
+            width: 47%;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    & .Bg {
+      &::after {
+        width: 285px;
+        height: 313px;
+        right: -82px;
+      }
+      a {
+        gap: 11px;
+      }
+    }
+    & .Social {
+      ul {
+        flex-flow: row wrap;
+      }
+    }
+    & .Menu {
+      padding-top: 40px;
+      & .LogoSection {
+        .FtLogo {
+          margin-top: 0px;
+        }
+      }
+      .row {
+        flex-direction: column-reverse;
+        row-gap: 30px;
+      }
+    }
+    & .Social {
+      ul {
+        li {
+          width: calc(30% - 18px);
+        }
+      }
+    }
+  }
+  .CallToAction {
+    .Img {
+      width: 100%;
+      aspect-ratio: 1640 / 1014;
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@media (max-width: 578px) {
+  p {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+
+  header {
+    & .container {
+      .MobileNav {
+        gap: 5px;
+      }
+      & .MobileNav.active {
+        padding: 36px 0;
+        & li {
+          &:nth-child(3) {
+            display: unset;
+          }
+          i {
+            margin-left: 5px;
+            color: var(--black-color) !important;
+          }
+          a {
+            color: var(--black-color);
+          }
+        }
+      }
+    }
+  }
+  .Banner {
+    .web {
+      display: none;
+    }
+    .Mob {
+      height: 100vh;
+      display: flex !important;
+    }
+    & .BtnFlex {
+      flex-flow: row wrap;
+      justify-content: center;
+      a {
+        width: 70%;
+      }
+    }
+    & .Video {
+      height: 100vh;
+      & .Cnt {
+        height: 100%;
+        & h1 {
+          font-size: 36px;
+          line-height: 40px;
+          padding-top: 40px;
+        }
+        .row {
+          height: 100vh;
+          text-align: center;
+          ul {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+  .HomeAbout {
+    & .Count {
+      & h6 {
+        font-size: 26px;
+        margin-bottom: 10px;
+      }
+      h5 {
+        font-size: 16px;
+      }
+    }
+    & .AboutFeature {
+      & .Bg {
+        gap: 35px;
+        i {
+          width: 37px;
+          height: 37px;
+          font-size: 23px;
+        }
+        h5 {
+          width: calc(100% - 73px);
+          font-size: 19px;
+        }
+      }
+    }
+  }
+  .OurService {
+    position: relative;
+    i {
+      font-size: 25px;
+    }
+    .d-inline-flex {
+      margin-bottom: 10px;
+    }
+    .Bg {
+      padding: 10px;
+      & .Cnt {
+        margin-top: 20px;
+        & .Title {
+          position: unset;
+          h2 {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .BtnNavigation {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 110%;
+      position: absolute;
+      right: 50%;
+      top: 18%;
+      transform: translateX(50%);
+      span {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+  .Partners {
+    .col-lg-8 {
+      border-left: none;
+      .row {
+        & .col-lg-3 {
+          img {
+            width: 90%;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 9px;
+            mix-blend-mode: darken;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          }
+        }
+        border-bottom: none;
+      }
+    }
+  }
+  footer {
+    margin-top: 0;
+    & .Bg {
+      display: none;
+    }
+    & .Social {
+      & ul {
+        li {
+          width: calc(50% - 25px);
+        }
+      }
+    }
+    & .Copy {
+      p {
+        width: 80%;
+      }
+    }
+    /* MOBILE FOOTER */
+    .mobFooter {
+      display: block;
+      color: #ffffff;
+
+      .FtLogo {
+        text-align: center;
+        margin-bottom: 20px;
+        p {
+          padding: 0px 0px;
+        }
+
+        img {
+          width: 150px;
+          margin: 0 auto;
+        }
+        .Social {
+          text-align: center;
+          margin-top: 30px;
+          border-bottom: 1px solid var(--white-color);
+          padding-bottom: 35px;
+          h6 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 400;
+            text-transform: capitalize;
+            color: var(--white-color);
+          }
+          ul {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+
+            li {
+              border-top: none;
+              display: unset;
+              width: auto;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background-color: #1981c0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 0;
+              &::after {
+                display: none;
+              }
+              a {
+                color: #d0e6f8;
+                font-size: 14px;
+                display: unset;
+
+                i {
+                  font-size: 18px;
+                  color: #fff;
+                }
+
+                &:hover {
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .Menu {
+        margin-bottom: 30px;
+        padding-top: 20px;
+        h4 {
+          text-transform: capitalize !important;
+        }
+        .contact {
+          h4 {
+            padding-left: 45px;
+          }
+          ul {
+            li {
+              display: flex;
+              gap: 15px;
+              i {
+                width: 30px;
+              }
+              .icon-email,
+              .icon-call,
+              .icon-location {
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background-color: #1981c0;
+              }
+              a {
+                width: calc(100% - 50px);
+              }
+            }
+          }
+        }
+        .row {
+          flex-direction: column;
+        }
+        ul {
+          li {
+            a {
+              font-size: 16px !important;
+            }
+          }
+        }
+        h4 {
+          margin-bottom: 10px;
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+
+      .LogoSection {
+        ul {
+          padding: 0;
+          list-style: none;
+
+          li {
+            color: #d0e6f8;
+            font-size: 14px;
+            margin-bottom: 10px;
+
+            a {
+              color: inherit;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      .Copy {
+        display: block;
+        border-top: 1px solid var(--white-color);
+        padding: 20px 0;
+        p {
+          width: auto;
+          font-size: 16px !important;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .CallToAction {
+    .container {
+      max-width: 100%;
+      margin: auto;
+      width: 100%;
+      padding: 0 !important;
+    }
+    .Img {
+      aspect-ratio: 1640 / 2450;
+      border-radius: 0;
+      .Cnt {
+        bottom: 30px;
+        left: 32px;
+        top: auto;
+        width: 79%;
+        h6 {
+          margin-top: 5px;
+          text-align: left;
+          font-weight: 300;
+          font-size: 16px;
+        }
+        a {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .Testimonial {
+    & .TestimoniaSlider {
+      margin-top: 30px;
+      & ul {
+        li {
+          display: flex;
+          flex-flow: row wrap;
+          padding: 15px;
+          .Image {
+            width: 70px;
+            height: 70px;
+          }
+          .Author {
+            width: 100%;
+            & .Name {
+              h4 {
+                font-size: 19px;
+              }
+              span {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+      & .slider-left {
+        .slick-list {
+          padding-left: 15% !important;
+        }
+      }
+      & .slider-right {
+        .slick-list {
+          padding: 0 15% 0 0 !important;
+        }
+      }
+    }
+  }
+  .OurLoanProces {
+    position: relative;
+    .ProccessSlider {
+      margin-top: 60px;
+    }
+    .BtnNavigation {
+      width: 110%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .Navigation {
+      width: 100%;
+      width: 100%;
+      gap: 3px;
+      margin-bottom: 5px;
+      top: -40px;
+      span {
+        width: 34px !important;
+      }
+      & div {
+        p {
+          font-size: 15px !important;
+        }
+      }
+    }
+    & .advisor-box {
+      h3 {
+        font-size: 20px;
+      }
+    }
+    & .CntWrapper {
+      position: unset;
+      .Title {
+        width: 100%;
+      }
+      .BtnNavigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 110%;
+        position: absolute;
+        right: 50%;
+        top: 19%;
+        transform: translateX(50%);
+        span {
+          width: 36px;
+          height: 36px;
+        }
+      }
+    }
+  }
+  .footerweb {
+    display: none;
+  }
+}
