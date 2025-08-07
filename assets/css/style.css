@@ -52,6 +52,10 @@ h3 {
   margin: auto;
   width: 90%;
 }
+
+.display-none {
+  display: none;
+}
 :root {
   --primary-color: #015c93;
   --secondary-color: #077afd;
