@@ -60,32 +60,45 @@ h3 {
   width: 90%;
 }
 
+.rectangle-ash {
+  position: relative;
+  width: 540px;
+  height: 351px;
+  margin: 100px auto;
+  background: #EDEFEF;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .square {
   position: relative;
-  width: 422px;
-  height: 431px;
+  width: 350px;
+  height: 351px;
   margin: 100px auto;
   background: #D6EFFF;
-  border-radius: 16px
+  border-radius: 16px;
 }
 
 .square::before {
   content: "";
   position: absolute;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   background-color: #FFFFFF;
   border-radius: 10px;
   opacity: 0.6;
-  left: 0;
-  bottom: 0;
+  left: 4px;
+  bottom: 4px;
 }
 
 .square::after {
   content: "";
   position: absolute;
-  width: 116px;
-  height: 116px;
+  width: 100px;
+  height: 100px;
   background-color: #FFFFFF;
   border-radius: 4px;
   left: 30%;
@@ -577,7 +590,7 @@ header {
     }
 
     h2 {
-      font-size: 36px;
+      font-size: 30px;
       font-weight: 400;
       color: var(--primary-color);
     }
@@ -586,6 +599,12 @@ header {
     h3 {
       font-family: var(--secondary-font);
       font-weight: 400;
+    }
+
+    h4 {
+      font-size: 26px;
+      font-weight: 400;
+      color: var(--primary-color);
     }
 
     .BgDark,
@@ -1386,3 +1405,6 @@ footer {
 }
 
 /* services section */
+.Solutions {
+
+}
