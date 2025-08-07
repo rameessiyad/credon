@@ -576,6 +576,13 @@ header {
       font-size: 25px;
     }
 
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+      color: var(--primary-color);
+    }
+
+
     h3 {
       font-family: var(--secondary-font);
       font-weight: 400;
