@@ -64,7 +64,7 @@ h3 {
   position: relative;
   width: 540px;
   height: 351px;
-  margin: 100px auto;
+  /* margin: 100px auto; */
   background: #EDEFEF;
   border-radius: 16px;
   padding: 20px;
@@ -75,9 +75,9 @@ h3 {
 
 .square {
   position: relative;
-  width: 350px;
+  width: 340px;
   height: 351px;
-  margin: 100px auto;
+  /* margin: 100px auto; */
   background: #D6EFFF;
   border-radius: 16px;
 }
@@ -1406,5 +1406,23 @@ footer {
 
 /* services section */
 .Solutions {
+  margin-top: 130px;
 
+  h2 {
+    color: var(--primary-color);
+    font-size: 32px
+  }
+
+  .solutionsCardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .solutionsCardFull {
+      width: fit-content
+    }
+    .solutionsCard {
+      width: fit-content;
+    }
+  }
 }
