@@ -62,22 +62,17 @@ h3 {
 
 .rectangle-ash {
   position: relative;
-  width: 540px;
+  width: 614px;
   height: 351px;
-  /* margin: 100px auto; */
   background: #EDEFEF;
   border-radius: 16px;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 20px 12px;
 }
 
 .square {
   position: relative;
   width: 340px;
   height: 351px;
-  /* margin: 100px auto; */
   background: #D6EFFF;
   border-radius: 16px;
 }
@@ -1413,14 +1408,21 @@ footer {
     font-size: 32px
   }
 
+  h4 {
+    color: var(--primary-color);
+    font-size: 26px;
+    margin: 0;
+  }
+
   .solutionsCardContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     .solutionsCardFull {
-      width: fit-content
+      width: fit-content;
     }
+
     .solutionsCard {
       width: fit-content;
     }
