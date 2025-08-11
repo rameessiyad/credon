@@ -1454,10 +1454,31 @@ footer {
   .realEstateCard {
     background: #D6EFFF;
     min-height: 100%;
+
+    .readMoreContainer {
+      background: white;
+
+      .arrow-hover {
+        display: none;
+      }
+    }
+
   }
 
   .realEstateCard:hover {
     background: #EDEFEF;
+
+    .readMoreContainer {
+      background: var(--secondary-color);
+
+      .first-arrow {
+        display: none;
+      }
+
+      .arrow-hover {
+        display: block;
+      }
+    }
   }
 
   .realEstateCard:hover .readMore {
