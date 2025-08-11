@@ -1408,6 +1408,12 @@ footer {
     font-size: 32px
   }
 
+  h3 {
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 400;
+  }
+
   h4 {
     color: var(--primary-color);
     font-size: 26px;
@@ -1439,5 +1445,13 @@ footer {
     .solutionsCard {
       width: fit-content;
     }
+  }
+
+  .realEstateCard {
+    background: #D6EFFF;
+  }
+
+  .realEstateCard:hover {
+    background: #EDEFEF;
   }
 }
