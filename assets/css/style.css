@@ -1447,6 +1447,10 @@ footer {
     }
   }
 
+  .readMore {
+    font-weight: 550;
+  }
+
   .realEstateCard {
     background: #D6EFFF;
     min-height: 100%;
@@ -1454,5 +1458,9 @@ footer {
 
   .realEstateCard:hover {
     background: #EDEFEF;
+  }
+
+  .realEstateCard:hover .readMore {
+    color: var(--primary-color);
   }
 }
