@@ -1449,6 +1449,7 @@ footer {
 
   .realEstateCard {
     background: #D6EFFF;
+    max-width: 24.4%;
   }
 
   .realEstateCard:hover {
