@@ -1597,19 +1597,20 @@ footer {
   font-weight: 300;
 }
 
-.menu-box.newsroom {
+.menu-box.active-menu {
   background: rgba(255, 255, 255, 0.3);
   color: #fff;
-  position: absolute;
-  top: -50%;
-  left: 0;
+  /* position: absolute;
+  top: -50%; */
+  /* left: 0; */
+  margin-bottom: 10%;
 }
 
-.menu-box.insights {
+.menu-box.menu {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.menu-box.events {
+.menu-box.menu {
   background: rgba(0, 0, 0, 0.3);
 }
 
