@@ -1583,7 +1583,7 @@ footer {
 
 /* insights */
 .menu-box {
-  padding: 30px 90px;
+  padding: 2rem 7rem;
   border-radius: 12px;
   font-weight: 600;
   color: white;
@@ -1598,6 +1598,9 @@ footer {
 .menu-box.newsroom {
   background: rgba(255, 255, 255, 0.3);
   color: #fff;
+  position: absolute;
+  top: -50%;
+  left: 0;
 }
 
 .menu-box.insights {
