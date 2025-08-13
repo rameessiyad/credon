@@ -1613,22 +1613,6 @@ footer {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.btn-consult {
-  background: white;
-  color: #0071e3;
-  padding: 8px 18px;
-  border-radius: 6px;
-  margin-right: 10px;
-  font-weight: 500;
-}
-
-.btn-contact {
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 8px 18px;
-  border-radius: 6px;
-  font-weight: 500;
-}
 
 .btn-consult:hover,
 .btn-contact:hover {
