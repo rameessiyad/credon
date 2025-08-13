@@ -1632,3 +1632,7 @@ footer {
 .btn-contact:hover {
   opacity: 0.9;
 }
+
+.currentNews h2 {
+  color: var(--primary-color);
+}
