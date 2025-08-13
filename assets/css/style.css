@@ -53,6 +53,11 @@ h3 {
   font-size: 25px;
 }
 
+h1 {
+  font-size: 40px;
+  color: var(--primary-color);
+}
+
 /* ===== Layout ===== */
 .container {
   max-width: 1400px;
@@ -1405,7 +1410,7 @@ footer {
 
   h2 {
     color: var(--primary-color);
-    font-size: 32px
+    /* font-size: 32px */
   }
 
   h3 {
@@ -1417,6 +1422,12 @@ footer {
   h4 {
     color: var(--primary-color);
     font-size: 26px;
+    margin: 0;
+  }
+
+  h5 {
+    color: var(--primary-color);
+    font-size: 32px;
     margin: 0;
   }
 
