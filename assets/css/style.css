@@ -114,6 +114,8 @@ h1 {
   --primary-hover: #d6efff;
   --white-color: #ffffff;
   --black-color: #000000;
+  --light-gray: #F3F4F6;
+  --dark-gray: #616162;
   --secondary-font: "Lexend", sans-serif;
 }
 
@@ -1635,4 +1637,31 @@ footer {
 
 .currentNews h2 {
   color: var(--primary-color);
+}
+
+.currentNews .newsCard {
+  background: var(--light-gray);
+}
+
+.newsCard {
+  .cardBody p, h3{
+    margin: 0.2rem;
+  }
+
+  .cardBody p {
+    color: var(--dark-gray);
+  }
+
+  .cardBody .date {
+    font-size: 20px;
+  }
+
+  .cardBody h4 {
+    color: var(--primary-color);
+    font-weight: 400;
+  }
+
+  .cardBody .desc {
+    font-size: 16px;
+  }
 }
