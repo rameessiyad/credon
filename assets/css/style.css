@@ -1487,7 +1487,8 @@ footer {
 }
 
 .strategic {
-  border-radius: 30px;
+  border-radius: 14px;
+  overflow: hidden;
 }
 
 .strategicImgContainer {
