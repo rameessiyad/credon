@@ -1670,3 +1670,158 @@ footer {
 }
 
 /* responsive styles */
+@media screen and (max-width: 1186px) {
+  .menu-box {
+    padding: 2rem 6rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+  }
+
+  .menu-box h2 {
+    font-weight: 300;
+    font-size: 34px
+  }
+
+  .menu-box.active-menu {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    /* position: absolute;
+  top: -50%; */
+    /* left: 0; */
+    margin-bottom: 10%;
+  }
+
+}
+
+@media screen and (max-width: 1063px) {
+  .menu-box {
+    padding: 2rem 5.2rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+  }
+
+  .menu-box h2 {
+    font-weight: 300;
+    font-size: 32px
+  }
+
+  .menu-box.active-menu {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    /* position: absolute;
+  top: -50%; */
+    /* left: 0; */
+    margin-bottom: 10%;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .menu-box {
+    padding: 1.7rem 4.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+  }
+
+  .menu-box h2 {
+    font-weight: 300;
+    font-size: 26px
+  }
+
+  .menu-box.active-menu {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    /* position: absolute;
+  top: -50%; */
+    /* left: 0; */
+    margin-bottom: 10%;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .menu-box {
+    padding: 1.7rem 4.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+  }
+
+  .menu-box h2 {
+    font-weight: 300;
+    font-size: 26px
+  }
+
+  .menu-box.active-menu {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    /* position: absolute;
+  top: -50%; */
+    /* left: 0; */
+    margin-bottom: 10%;
+  }
+
+}
+
+@media screen and (max-width: 770px) {
+  .menu-box {
+    padding: 1.7rem 3.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+  }
+
+  .menu-box h2 {
+    font-weight: 300;
+    font-size: 26px
+  }
+
+  .menu-box.active-menu {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    /* position: absolute;
+  top: -50%; */
+    /* left: 0; */
+    margin-bottom: 10% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu-box {
+    /* padding: 1.7rem 4.5rem; */
+    width: 80%;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+  }
+
+  .menu-box h2 {
+    font-weight: 300;
+    font-size: 22px
+  }
+
+  .menu-box.active-menu {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    /* position: absolute;
+  top: -50%; */
+    /* left: 0; */
+    margin-bottom: 0 !important;
+  }
+
+}
