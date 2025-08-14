@@ -879,6 +879,17 @@ header {
   }
 }
 
+.title i {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: var(--secondary-color);
+  margin-left: 1rem;
+}
+
 /* OUR SERVICE */
 .OurService {
   margin-top: 130px;
