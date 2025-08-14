@@ -1772,6 +1772,11 @@ footer {
     margin-bottom: 10%;
   }
 
+  .view-more-arrow {
+    width: 20px;
+    height: 30px
+  }
+
 }
 
 @media screen and (max-width: 770px) {
