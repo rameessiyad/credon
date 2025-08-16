@@ -203,6 +203,18 @@
     }
 }
 
+.Insights {
+    .slider {
+        .sliderContent {
+            color: white;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            /* padding: 1rem 2rem; */
+            /* border-radius: 8px; */
+        }
+    }
+}
+
 /* responsive styles */
 @media screen and (max-width: 1186px) {
     .menu-box {
