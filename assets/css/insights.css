@@ -230,9 +230,12 @@
 .CardContainer {
     .card {
         cursor: pointer;
+        transition: box-shadow 0.3s ease, transform 0.2s ease;
     }
+
     .card:hover {
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        transform: translateY(-4px);
     }
 
     .cardDesc {
