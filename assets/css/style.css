@@ -58,6 +58,10 @@ h1 {
   color: var(--primary-color);
 }
 
+.title-text {
+  color: var(--primary-color);
+}
+
 /* ===== Layout ===== */
 .container {
   max-width: 1400px;
