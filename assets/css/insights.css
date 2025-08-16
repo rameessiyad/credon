@@ -224,6 +224,21 @@
             }
         }
     }
+
+}
+
+.CardContainer {
+    .card {
+        cursor: pointer;
+    }
+    .card:hover {
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .cardDesc {
+        color: var(--dark-gray);
+    }
+
 }
 
 
