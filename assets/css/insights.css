@@ -1,4 +1,4 @@
-.Banner {
+.Banner.Insights {
     .Mob {
         display: none !important;
     }
@@ -122,4 +122,245 @@
             font-weight: 500;
         }
     }
+}
+
+.menu-box {
+    padding: 2rem 7rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.menu-box h2 {
+    font-weight: 300;
+}
+
+.menu-box.active-menu {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    /* position: absolute;
+  top: -50%; */
+    /* left: 0; */
+    margin-bottom: 10%;
+}
+
+.menu-box.menu {
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-box.menu {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-box.menu:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+.btn-consult:hover,
+.btn-contact:hover {
+    opacity: 0.9;
+}
+
+.currentNews h2 {
+    color: var(--primary-color);
+}
+
+.currentNews .newsCard {
+    background: var(--light-gray);
+}
+
+.newsCard {
+
+    .cardBody p,
+    h3 {
+        margin: 0.2rem;
+    }
+
+    .cardBody p {
+        color: var(--dark-gray);
+    }
+
+    .cardBody .date {
+        font-size: 20px;
+    }
+
+    .cardBody h3 {
+        color: var(--primary-color);
+        font-weight: 400;
+    }
+
+    .cardBody .desc {
+        font-size: 16px;
+    }
+
+    a {
+        color: var(--dark-gray);
+        font-size: 20px;
+    }
+}
+
+/* responsive styles */
+@media screen and (max-width: 1186px) {
+    .menu-box {
+        padding: 2rem 6rem;
+        border-radius: 12px;
+        font-weight: 600;
+        color: white;
+        backdrop-filter: blur(10px);
+        cursor: pointer;
+    }
+
+    .menu-box h2 {
+        font-weight: 300;
+        font-size: 34px
+    }
+
+    .menu-box.active-menu {
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        /* position: absolute;
+  top: -50%; */
+        /* left: 0; */
+        margin-bottom: 10%;
+    }
+
+}
+
+@media screen and (max-width: 1063px) {
+    .menu-box {
+        padding: 2rem 5.2rem;
+        border-radius: 12px;
+        font-weight: 600;
+        color: white;
+        backdrop-filter: blur(10px);
+        cursor: pointer;
+    }
+
+    .menu-box h2 {
+        font-weight: 300;
+        font-size: 32px
+    }
+
+    .menu-box.active-menu {
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        /* position: absolute;
+  top: -50%; */
+        /* left: 0; */
+        margin-bottom: 10%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .menu-box {
+        padding: 1.7rem 4.5rem;
+        border-radius: 12px;
+        font-weight: 600;
+        color: white;
+        backdrop-filter: blur(10px);
+        cursor: pointer;
+    }
+
+    .menu-box h2 {
+        font-weight: 300;
+        font-size: 26px
+    }
+
+    .menu-box.active-menu {
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        /* position: absolute;
+  top: -50%; */
+        /* left: 0; */
+        margin-bottom: 10%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .menu-box {
+        padding: 1.7rem 4.5rem;
+        border-radius: 12px;
+        font-weight: 600;
+        color: white;
+        backdrop-filter: blur(10px);
+        cursor: pointer;
+    }
+
+    .menu-box h2 {
+        font-weight: 300;
+        font-size: 26px
+    }
+
+    .menu-box.active-menu {
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        /* position: absolute;
+  top: -50%; */
+        /* left: 0; */
+        margin-bottom: 10%;
+    }
+
+    .view-more-arrow {
+        width: 20px;
+        height: 30px
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .menu-box {
+        padding: 1.7rem 3.5rem;
+        border-radius: 12px;
+        font-weight: 600;
+        color: white;
+        backdrop-filter: blur(10px);
+        cursor: pointer;
+    }
+
+    .menu-box h2 {
+        font-weight: 300;
+        font-size: 26px
+    }
+
+    .menu-box.active-menu {
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        /* position: absolute;
+  top: -50%; */
+        /* left: 0; */
+        margin-bottom: 10% !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu-box {
+        /* padding: 1.7rem 4.5rem; */
+        width: 80%;
+        border-radius: 12px;
+        font-weight: 600;
+        color: white;
+        backdrop-filter: blur(10px);
+        cursor: pointer;
+    }
+
+    .menu-box h2 {
+        font-weight: 300;
+        font-size: 22px
+    }
+
+    .menu-box.active-menu {
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        /* position: absolute;
+  top: -50%; */
+        /* left: 0; */
+        margin-bottom: 0 !important;
+    }
+
 }
