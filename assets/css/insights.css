@@ -273,7 +273,6 @@
 .NewsRoomSub {
     padding: 2px;
     border: 1px solid var(--primary-color);
-    border-radius: 10px;
 }
 
 .NewsRoomSub .backArrow {
