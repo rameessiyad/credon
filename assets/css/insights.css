@@ -268,6 +268,22 @@
     color: var(--dark-gray);
 }
 
+/* newsroom sub styles */
+
+.NewsRoomSub {
+    padding: 2px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.NewsRoomSub .backArrow {
+    transform: rotate(180deg);
+}
+
+.NewsRoomSub h4 {
+    color: var(--dark-gray);
+}
+
 
 /* responsive styles */
 @media screen and (max-width: 1186px) {
