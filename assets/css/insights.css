@@ -1,3 +1,4 @@
+
 .Banner.Insights {
     .Mob {
         display: none !important;
@@ -242,6 +243,15 @@
         color: var(--dark-gray);
     }
 
+}
+
+.EventCard .EventDate h3,
+.EventCard .EventDate h2 {
+    color: var(--primary-color);
+}
+
+.EventDate h3 {
+    font-size: 28px;
 }
 
 
