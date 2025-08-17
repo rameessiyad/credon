@@ -269,17 +269,20 @@
 }
 
 /* newsroom sub styles */
+.NewsRoomSub .title {
+    font-weight: 400;
+}
 
-.NewsRoomSub {
+.NewsRoomBackButton {
     padding: 2px;
     border: 1px solid var(--primary-color);
 }
 
-.NewsRoomSub .backArrow {
+.NewsRoomBackButton .backArrow {
     transform: rotate(180deg);
 }
 
-.NewsRoomSub h4 {
+.NewsRoomBackButton h4 {
     color: var(--dark-gray);
 }
 
@@ -429,6 +432,11 @@
         font-size: 1.2rem;
         color: var(--dark-gray);
         font-weight: 300;
+    }
+
+    .NewsRoomSub .title {
+        font-size: 1.3rem;
+        font-weight: 400;
     }
 }
 
