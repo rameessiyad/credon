@@ -429,7 +429,7 @@ header {
       border-radius: 6px;
 
       &:nth-child(1) {
-        background-color: var(--primary-hover);
+        background-color: var(--white-color);
         color: var(--black-color);
         transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 
