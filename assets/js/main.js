@@ -178,3 +178,24 @@ $(document).ready(function () {
     duration: 1000,
   });
 });
+
+$(document).ready(function () {
+  $(".insights-slider").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false, // you can enable if you want pagination dots
+    infinite: true,
+    speed: 600,
+    fade: true,
+    adaptiveHeight: true,
+    prevArrow: $(".custom-prev"),
+    nextArrow: $(".custom-next"),
+  });
+
+  // Re-init AOS so animations trigger properly
+  AOS.init({
+    once: true,
+    duration: 1000,
+  });
+});
