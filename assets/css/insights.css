@@ -286,6 +286,9 @@
     color: var(--dark-gray);
 }
 
+.Sub p {
+    color: var(--dark-gray);
+}
 
 /* responsive styles */
 @media screen and (max-width: 1186px) {
@@ -396,9 +399,10 @@
     }
 
     .NewsRoomBackButton {
-        img{
+        img {
             width: 18px;
         }
+
         h4 {
             font-size: 1rem;
         }
