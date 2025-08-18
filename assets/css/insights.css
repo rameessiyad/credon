@@ -395,6 +395,15 @@
         height: 30px
     }
 
+    .NewsRoomBackButton {
+        img{
+            width: 18px;
+        }
+        h4 {
+            font-size: 1rem;
+        }
+    }
+
 }
 
 @media screen and (max-width: 770px) {
