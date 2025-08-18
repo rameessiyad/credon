@@ -229,7 +229,7 @@
 }
 
 .Insights {
-    .slider {
+    .slider-wrapper {
         .sliderContent {
             color: white;
             background: rgba(0, 0, 0, 0.3);
