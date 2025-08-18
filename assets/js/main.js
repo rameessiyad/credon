@@ -199,3 +199,4 @@ $(document).ready(function () {
     duration: 1000,
   });
 });
+

@@ -229,7 +229,7 @@
 }
 
 .Insights {
-    .slider-wrapper {
+    .slider {
         .sliderContent {
             color: white;
             background: rgba(0, 0, 0, 0.3);
@@ -250,6 +250,24 @@
                     background-color: var(--primary-hover);
                     color: var(--primary-color);
                 }
+            }
+        }
+        .slider-container {
+            overflow: hidden;
+            width: 100%;
+            padding: 0;
+        }
+
+        .slider-wrapper {
+            display: flex;
+            transition: transform 0.5s ease;
+            /* scroll-behavior: smooth; */
+            width: 100%;
+
+            .slide {
+                flex: 0 0 100%;
+                min-width: 100%;
+                /* flex-shrink: 0; */
             }
         }
     }
