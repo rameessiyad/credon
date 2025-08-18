@@ -173,6 +173,31 @@
     background: var(--light-gray);
 }
 
+.BtnNavigation {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    top: 31px;
+    z-index: 99999;
+
+    span {
+        border: 3px solid var(--secondary-color);
+        color: var(--secondary-color);
+        padding: 10px;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
 .newsCard {
 
     .cardBody p,
