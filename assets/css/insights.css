@@ -356,6 +356,22 @@
     /* background: red; */
 }
 
+.mobileSliderIcon.custom-prev,
+.mobileSliderIcon.custom-next {
+    position: absolute;
+    z-index: 2000;
+}
+
+.mobileSliderIcon.custom-next {
+    right: 0;
+    top: 100%;
+    /* transform: translateY(-50%); */
+}
+
+.mobileSliderIcon.custom-prev {
+    left: 0;
+}
+
 /* responsive styles */
 @media screen and (max-width: 1186px) {
     .menu-box {
@@ -546,7 +562,7 @@
         font-size: 1.3rem;
         font-weight: 400;
     }
-    
+
 }
 
 @media screen and (max-width: 767px) {

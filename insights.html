@@ -177,7 +177,8 @@
                             user-friendly, and optimized for growth. Whether starting from scratch or upgrading</p>
 
                         <!-- slider buttons -->
-                        <div class="ProcessSlider" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="ProcessSlider d-none d-md-block" data-aos="fade-up" data-aos-delay="200"
+                            data-aos-duration="1000">
                             <div class="d-flex gap-2 ms-3 BtnNavigation" id="BtnNavigation">
                                 <span class="icon-chevron-left custom-prev"></span>
                                 <span class="icon-chevron-right custom-next"></span>
@@ -193,10 +194,24 @@
 
                         <!-- slide 1 -->
                         <div class="position-relative slide">
+                            <!-- slider buttons -->
+
                             <img src="./assets/images/insights/insights-slider-1.png" alt="slider-1"
                                 class="d-none d-md-block">
-                            <img src="./assets/images/insights/slider-img-mobile-1.png" alt="slider-1"
-                                class=" d-md-none">
+                            <!-- Mobile slider image -->
+                            <div class="position-relative">
+                                <img src="./assets/images/insights/slider-img-mobile-1.png" alt="slider-1"
+                                    class=" d-md-none">
+
+                                <div class="ProcessSlider bg-" data-aos="fade-up" data-aos-delay="200"
+                                    data-aos-duration="1000">
+                                    <div class="d-flex gap-2 ms-3 BtnNavigation" id="BtnNavigation">
+                                        <span class="icon-chevron-left mobileSliderIcon custom-prev"></span>
+                                        <span class="icon-chevron-right mobileSliderIcon custom-next"></span>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="sliderContent position-absolute bottom-0 start-0 px-4 py-3 rounded-bottom-4">
                                 <div class="d-flex gap-4 align-items-center m-0 flex-wrap">
                                     <span class="border border-white rounded px-2">6 min read</span>
