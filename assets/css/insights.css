@@ -342,6 +342,11 @@
     color: var(--dark-gray);
 }
 
+.Content.medium {
+    display: none !important;
+    /* background: red; */
+}
+
 /* responsive styles */
 @media screen and (max-width: 1186px) {
     .menu-box {
@@ -395,15 +400,16 @@
 
 }
 
-/* @media screen and (max-width: 1025px) {
-    .eventContent.large {
-        display: none;
+@media screen and (max-width: 1024px) {
+    .Content.large {
+        display: none !important;
     }
 
-    .eventContent.medium {
-        display: block;
+    .Content.medium {
+        display: block !important;
     }
-} */
+
+}
 
 @media screen and (max-width: 992px) {
     .menu-box {
