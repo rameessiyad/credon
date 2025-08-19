@@ -270,10 +270,19 @@
                 min-width: 100%;
                 /* flex-shrink: 0; */
             }
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
         }
+
+
     }
 
 }
+
 
 .CardContainer {
     .card {
@@ -537,6 +546,7 @@
         font-size: 1.3rem;
         font-weight: 400;
     }
+    
 }
 
 @media screen and (max-width: 767px) {
