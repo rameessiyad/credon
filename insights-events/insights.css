@@ -254,7 +254,7 @@
         }
 
         .slider-container {
-            overflow-x:hidden;
+            overflow: hidden;
             width: 100%;
             padding: 0;
         }
@@ -561,16 +561,6 @@
     .NewsRoomSub .title {
         font-size: 1.3rem;
         font-weight: 400;
-    }
-
-    .ProcessSlider {
-        margin-top: 2.4rem;
-    }
-
-    .ProcessSlider .custom-prev,
-    .ProcessSlider .custom-next {
-        width: 30px;
-        height: 30px;
     }
 
 }
