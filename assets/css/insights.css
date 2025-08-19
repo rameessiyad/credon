@@ -252,6 +252,7 @@
                 }
             }
         }
+
         .slider-container {
             overflow: hidden;
             width: 100%;
@@ -482,16 +483,21 @@
     }
 
     .EventTitle {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         color: var(--primary-color);
         font-weight: 400;
         margin-top: 10px;
     }
 
     .EventVenue h4 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: var(--dark-gray);
         font-weight: 300;
+    }
+
+    .EventDate h3 {
+        font-size: 1rem;
+        margin: 0;
     }
 
     .NewsRoomSub .title {
