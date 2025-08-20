@@ -293,9 +293,14 @@
 
         .slider-wrapper img {
             width: 100%;
-            height: auto;
+            height: 604px;
             object-fit: cover;
+            border-radius: 16px;
             /* keep proportions while filling */
+        }
+
+        .sliderContent {
+            border-radius: 16px
         }
 
         /* Slick fade fix (prevent blank white flash) */
@@ -333,6 +338,7 @@
 .CardContainer {
     .card {
         cursor: pointer;
+        min-height: 100%;
         transition: box-shadow 0.3s ease, transform 0.2s ease;
     }
 
@@ -482,6 +488,34 @@
 
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+        .card {
+        h3 {
+            font-size: 1.2rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+        .reviewDetails{
+            flex-direction: column;
+            align-items: start;
+
+            .reviewerName {
+                width: 100%;
+            }
+        }
+        .reviewerName {
+            font-size: 0.8rem;
+        }
+
+        .reviewStatus {
+            margin-top: 1rem;
+            /* background: red; */
+            width: 100%;
+        }
+    }
+}
+
 @media screen and (max-width: 992px) {
     .menu-box {
         padding: 1.7rem 4.5rem;
@@ -560,6 +594,17 @@
         font-weight: 300;
     }
 
+    .card {
+        h3 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+    }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -618,6 +663,24 @@
         width: 30px;
         height: 30px;
     }
+
+    .content {
+        h3 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: 0.7rem;
+        }
+    }
+
+    .sliderLearnMore {
+        /* width: 100%; */
+        padding: 0.45rem 0 !important;
+        font-size: 0.8rem !important;
+    }
+
+    
 
 }
 

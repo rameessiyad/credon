@@ -33,7 +33,7 @@ $(".slider-wrapper").slick({
   nextArrow: $(".custom-next"),
   dots: true,
   appendDots: $(".dots-container"),
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 3000,
   pauseOnHover: true,
 });
