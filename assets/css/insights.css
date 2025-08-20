@@ -173,6 +173,11 @@
     background: var(--light-gray);
 }
 
+.Sub.Section {
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
 .BtnNavigation {
     display: flex;
     align-items: center;
