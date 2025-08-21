@@ -20,5 +20,9 @@
         p, span, li{
             color: var(--dark-gray);
         }
+
+        .jobDesc {
+            font-size: 16px;
+        }
     }
 }
