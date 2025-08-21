@@ -50,10 +50,12 @@
         .title {
             font-size: 2.5rem !important;
         }
+
         .description {
             font-size: 0.9rem !important;
         }
     }
+
     .jobCard {
         h3 {
             color: var(--primary-color);
@@ -64,10 +66,12 @@
         .jobDesc {
             font-size: 14px !important;
         }
+    }
+}
 
-        .jobTitleContainer {
-            border-right: none !important;
-            border-bottom: 1px solid silver;
-        }
+@media screen and (max-width: 480px) {
+    .jobTitleContainer {
+        border-right: none !important;
+        border-bottom: 1px solid silver;
     }
 }
