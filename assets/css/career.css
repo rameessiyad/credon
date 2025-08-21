@@ -19,7 +19,7 @@
     background: rgba(0, 0, 0, 0.5);
     padding: 50px 0;
     z-index: 5000;
-    display: none !important;
+    display: none;
 
     input::placeholder {
         color: gray;
@@ -43,6 +43,14 @@
             color: var(--primary-color);
         }
     }
+}
+
+.ApplyNowFormContainer.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .Careers {
