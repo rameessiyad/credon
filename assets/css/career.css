@@ -10,6 +10,40 @@
     --secondary-font: "Lexend", sans-serif;
 }
 
+.ApplyNowFormContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+    z-index: 2000;
+
+    input::placeholder {
+        color: gray;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    select {
+        color: gray;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    button {
+        background: var(--primary-color);
+        color: var(--white-color);
+        transition: all ease 0.3s;
+
+        &:hover {
+            background: var(--primary-hover);
+            color: var(--primary-color);
+        }
+    }
+}
+
 .Careers {
     .jobCard {
         h3 {
