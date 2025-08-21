@@ -151,7 +151,7 @@ header {
   width: 100%;
   padding: 5px 0;
   background-color: rgba(0, 0, 0, 0.4);
-  z-index: 99999999;
+  z-index: 999998;
 
   .MobBtn {
     display: none;
