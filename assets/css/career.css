@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #015c93;
+    --secondary-color: #077afd;
+    --primary-light: #888f96;
+    --primary-hover: #d6efff;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --light-gray: #F3F4F6;
+    --dark-gray: #616162;
+    --secondary-font: "Lexend", sans-serif;
+}
+
+.Careers {
+    .jobCard {
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.9rem;
+            font-weight: 400;
+        }
+        p, span, li{
+            color: var(--dark-gray);
+        }
+    }
+}
