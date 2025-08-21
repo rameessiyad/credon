@@ -46,6 +46,14 @@
 }
 
 @media screen and (max-width: 768px) {
+    .Cnt {
+        .title {
+            font-size: 2.5rem !important;
+        }
+        .description {
+            font-size: 0.9rem !important;
+        }
+    }
     .jobCard {
         h3 {
             color: var(--primary-color);
