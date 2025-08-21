@@ -135,6 +135,10 @@ h2 {
   font-weight: 400;
 }
 
+.sectionP {
+  color: var(--dark-gray)
+}
+
 p {
   font-size: 18px;
 }
