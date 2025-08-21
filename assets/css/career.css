@@ -120,6 +120,7 @@
     .ApplyNowFormContainer {
         .ApplyNowForm {
             width: 90% !important;
+
             h3 {
                 font-size: 1.1rem !important;
             }
@@ -142,5 +143,11 @@
     .jobTitleContainer {
         border-right: none !important;
         border-bottom: 1px solid silver;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .jobType {
+        flex-direction: column !important;
     }
 }
