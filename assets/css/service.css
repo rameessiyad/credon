@@ -110,6 +110,20 @@
     backdrop-filter: blur(10px) !important;
 }
 
+.WhyTradeContainer {
+    background: var(--primary-hover);
+
+    h3 {
+        font-size: 1.8rem;
+        color: var(--primary-color);
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+}
+
 /* responsive styles */
 @media screen and (max-width: 768px) {
     .Cnt {
