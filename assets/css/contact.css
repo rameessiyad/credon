@@ -143,13 +143,27 @@
             input {
                 outline: none;
                 border: none;
-                border-bottom: 1px solid gray;
+                border-bottom: 1px solid rgb(183, 181, 181);
                 padding: 0.3rem;
                 background: transparent;
+                padding-bottom: 8px !important;
 
                 &::placeholder {
                     color: var(--primary-color);
                 }
+            }
+
+            select {
+                outline: none;
+                border: none;
+                border-bottom: 1px solid rgb(183, 181, 181);
+                padding: 0.3rem;
+                background: transparent;
+                padding-bottom: 8px !important;
+            }
+
+            select option {
+                color: var(--dark-gray) !important;
             }
 
             textarea {
@@ -160,6 +174,17 @@
                 background: transparent;
 
                 &::placeholder {
+                    color: var(--primary-color);
+                }
+            }
+
+            button {
+                background: var(--primary-color);
+                color: var(--white-color);
+                transition: all ease 0.3s;
+
+                &:hover {
+                    background: var(--primary-hover);
                     color: var(--primary-color);
                 }
             }
