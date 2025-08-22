@@ -124,6 +124,20 @@
     }
 }
 
+.KeyBenefitsCard {
+    background: var(--light-gray);
+
+    p {
+        color: var(--primary-color);
+        font-weight: bolder;
+        font-size: 1.3rem !important;
+
+        span {
+            font-weight: 400;
+        }
+    }
+}
+
 /* responsive styles */
 @media screen and (max-width: 768px) {
     .Cnt {
