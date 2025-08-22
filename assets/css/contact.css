@@ -181,10 +181,25 @@
             button {
                 background: var(--primary-color);
                 color: var(--white-color);
+                padding: 10px;
+                border: none;
                 transition: all ease 0.3s;
 
                 &:hover {
                     background: var(--primary-hover);
+                    color: var(--primary-color);
+                    border: 1px solid var(--primary-color);
+                }
+            }
+
+            .formBottom {
+                input {
+                    width: 20px;
+                    height: 20px;
+                    color: var(--primary-color);
+                }
+
+                span {
                     color: var(--primary-color);
                 }
             }
