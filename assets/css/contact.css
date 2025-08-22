@@ -147,9 +147,10 @@
                 padding: 0.3rem;
                 background: transparent;
                 padding-bottom: 8px !important;
+                color: var(--primary-color);
 
                 &::placeholder {
-                    color: var(--primary-color);
+                    color: rgb(158, 157, 157);
                 }
             }
 
@@ -439,7 +440,7 @@
 }
 
 @media screen and (max-width: 770px) {
-     .Cnt {
+    .Cnt {
         text-align: center;
         position: absolute;
         left: 0;
