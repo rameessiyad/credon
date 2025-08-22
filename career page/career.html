@@ -26,11 +26,71 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/icon-font/style.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/career.css">
     <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 
-<body>
+<body class="position-relative">
+    <!-- Apply now form popup -->
+    <div class="ApplyNowFormContainer">
+        <div class="ApplyNowForm bg-white rounded-4 p-3 position-relative overflow-hidden">
+            <div class="CloseBtn position-absolute top-0 end-0 p-3">
+                <i class="fa-solid fa-xmark" style="cursor: pointer;"></i>
+            </div>
+            <div class="ApplyNowFormHead">
+                <h3 class="text-center">Apply Now</h3>
+            </div>
+
+            <div class="ApplyNowFormBody">
+                <form action="" class="mt-4">
+                    <div class="w-100 p-3 d-flex flex-column gap-3">
+                        <div class="d-flex flex-column flex-md-row gap-3">
+                            <div class="d-flex flex-column flex-fill gap-2">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" placeholder="Enter your full name" id="fullName"
+                                    class="form-control shadow-sm" required />
+                            </div>
+                            <div class="d-flex flex-column flex-fill gap-2">
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="Enter your email address" id="email"
+                                    class="form-control" required />
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row gap-3">
+                            <div class="d-flex flex-column flex-fill gap-2">
+                                <label for="phone">Phone</label>
+                                <input type="tel" placeholder="Enter your phone number" id="phone"
+                                    class="form-control shadow-sm" required />
+                            </div>
+                            <div class="d-flex flex-column flex-fill gap-2">
+                                <label for="email">Position Applying For</label>
+                                <select name="position" id="position" class="form-control shadow-sm" required>
+                                    <option value="Full Stack Developer">Full Stack Developer</option>
+                                    <option value="Graphic Designer">Graphic Designer</option>
+                                    <option value="Content Writer">Content Writer</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="w-100 d-flex flex-column flex-fill gap-2">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" class="form-control shadow-sm" cols="30" rows="3"
+                                    placeholder="Enter your message"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="cv">Upload CV</label>
+                            <input type="file" id="cv" class="form-control shadow-sm" required />
+                        </div>
+                        <div class="bg- d-flex justify-content-center">
+                            <button class="rounded-3 px-3 py-2 w-50">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
     <header>
         <div class="container">
             <div class="Logo">
@@ -128,14 +188,14 @@
 
     <section class="Banner">
         <div class="Image">
-            <img src="assets/images/contact/contact-banner.png" alt="banner">
+            <img src="assets/images/career/career-banner.png" alt="banner">
 
             <div class="Cnt service" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div class="container">
                     <div class="row md-web" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                         <div class="col-md-12"
                             style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                            <h1 class="title">Contact Us</h1>
+                            <h1 class="title">Career</h1>
                             <p class="description">
                                 Innovative IT solutions designed to drive your growth and success. <br />
                                 At Dataspot we turn complex challenges into simple, scalable solutions. <br />
@@ -156,8 +216,8 @@
         <div class="container" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
             <div class="title d-flex align-items-center" data-aos="fade-up" data-aos-delay="200"
                 data-aos-duration="1000">
-                <h2 class="title-text" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                    Get In touch
+                <h2 class="title-text" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Currently Open
+                    Positions
                 </h2>
                 <i class="icon-rotatedarrow"></i>
             </div>
@@ -165,19 +225,194 @@
                 <div class="col-md-8">
                     <p class="subP sectionP" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                         At Dataspot Technologies, we create custom e-commerce websites that are secure, user-friendly,
-                        and optimized for growth. Whether starting from scratch or upgrading
+                        and
+                        optimized for growth. Whether starting from scratch or upgrading an existing website, our team
+                        has
+                        the skills and experience to deliver exceptional results.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="row mt-5 py-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0200762170957!2d55.340221775427295!3d25.26991007766421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ceec5a3eb9d%3A0x3873018827faef1d!2sAl%20Khubaisi%20(%20Pony%20Building%20)!5e0!3m2!1sen!2sin!4v1755835941206!5m2!1sen!2sin"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+    <section class="Careers Openings mt-3">
+        <div class="container py-5">
+            <div class="row gap-5" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <div class="card rounded-4 px-4 px-3 jobCard shadow-sm">
+                        <div class="col-12 d-flex flex-column flex-md-row py-3">
+                            <div class="col-md-4 d-flex flex-column p-3 jobTitleContainer">
+                                <h3 class="">Social Media Marketing</h3>
+                                <div class="d-flex flex-row gap-5 mt-2 jobType">
+                                    <span style="color: #024494; font-size: 16px;">Full Time</span>
+                                    <ul>
+                                        <li style="list-style: disc;">3+ year experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-8 d-flex flex-column flex-md-row justify-content-between align-items-center px-3">
+                                <div class="col-md-11 px-md-3">
+                                    <p class="jobDesc mt-2 mt-md-0">Are you a creative storyteller with a passion for
+                                        digital trends
+                                        and a knack for
+                                        building
+                                        brand presence online? We’re looking for a Social Media Marketer to join our
+                                        growing
+                                        team!Are you a creative storyteller with a passion for digital trends and a
+                                        knack
+                                        for
+                                        building brand presence</p>
+                                </div>
+                                <div class="align-self-end align-self-md-center" style="cursor: pointer;">
+                                    <img src="./assets/svg-icons/arrow-back-left.svg" alt="arrow" style="width: 40px;"
+                                        class="ApplyArrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <div class="card rounded-4 px-4 px-3 jobCard shadow-sm">
+                        <div class="col-12 d-flex flex-column flex-md-row py-3">
+                            <div class="col-md-4 d-flex flex-column p-3 jobTitleContainer">
+                                <h3 class="">Accountant</h3>
+                                <div class="d-flex flex-row gap-5 mt-2 jobType">
+                                    <span style="color: #024494; font-size: 16px;">Full Time</span>
+                                    <ul>
+                                        <li style="list-style: disc;">3+ year experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-8 d-flex flex-column flex-md-row justify-content-between align-items-center px-3">
+                                <div class="col-md-11 px-md-3">
+                                    <p class="jobDesc mt-2 mt-md-0">Are you a creative storyteller with a passion for
+                                        digital trends
+                                        and a knack for
+                                        building
+                                        brand presence online? We’re looking for a Social Media Marketer to join our
+                                        growing
+                                        team!Are you a creative storyteller with a passion for digital trends and a
+                                        knack
+                                        for
+                                        building brand presence</p>
+                                </div>
+                                <div class="align-self-end align-self-md-center" style="cursor: pointer;">
+                                    <img src="./assets/svg-icons/arrow-back-left.svg" alt="arrow" style="width: 40px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <div class="card rounded-4 px-4 px-3 jobCard shadow-sm">
+                        <div class="col-12 d-flex flex-column flex-md-row py-3">
+                            <div class="col-md-4 d-flex flex-column p-3 jobTitleContainer">
+                                <h3 class="">Content Writer</h3>
+                                <div class="d-flex flex-row gap-5 mt-2 jobType">
+                                    <span style="color: #024494; font-size: 16px;">Full Time</span>
+                                    <ul>
+                                        <li style="list-style: disc;">3+ year experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-8 d-flex flex-column flex-md-row justify-content-between align-items-center px-3">
+                                <div class="col-md-11 px-md-3">
+                                    <p class="jobDesc mt-2 mt-md-0">Are you a creative storyteller with a passion for
+                                        digital trends
+                                        and a knack for
+                                        building
+                                        brand presence online? We’re looking for a Social Media Marketer to join our
+                                        growing
+                                        team!Are you a creative storyteller with a passion for digital trends and a
+                                        knack
+                                        for
+                                        building brand presence</p>
+                                </div>
+                                <div class="align-self-end align-self-md-center" style="cursor: pointer;">
+                                    <img src="./assets/svg-icons/arrow-back-left.svg" alt="arrow" style="width: 40px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <div class="card rounded-4 px-4 px-3 jobCard shadow-sm">
+                        <div class="col-12 d-flex flex-column flex-md-row py-3">
+                            <div class="col-md-4 d-flex flex-column p-3 jobTitleContainer">
+                                <h3 class="">Graphic Designer</h3>
+                                <div class="d-flex flex-row gap-5 mt-2 jobType">
+                                    <span style="color: #024494; font-size: 16px;">Full Time</span>
+                                    <ul>
+                                        <li style="list-style: disc;">3+ year experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-8 d-flex flex-column flex-md-row justify-content-between align-items-center px-3">
+                                <div class="col-md-11 px-md-3">
+                                    <p class="jobDesc mt-2 mt-md-0">Are you a creative storyteller with a passion for
+                                        digital trends
+                                        and a knack for
+                                        building
+                                        brand presence online? We’re looking for a Social Media Marketer to join our
+                                        growing
+                                        team!Are you a creative storyteller with a passion for digital trends and a
+                                        knack
+                                        for
+                                        building brand presence</p>
+                                </div>
+                                <div class="align-self-end align-self-md-center" style="cursor: pointer;">
+                                    <img src="./assets/svg-icons/arrow-back-left.svg" alt="arrow" style="width: 40px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <div class="card rounded-4 px-4 px-3 jobCard shadow-sm">
+                        <div class="col-12 d-flex flex-column flex-md-row py-3">
+                            <div class="col-md-4 d-flex flex-column p-3 jobTitleContainer">
+                                <h3 class="">Frontend Developer</h3>
+                                <div class="d-flex flex-row gap-5 mt-2 jobType">
+                                    <span style="color: #024494; font-size: 16px;">Full Time</span>
+                                    <ul>
+                                        <li style="list-style: disc;">3+ year experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div
+                                class="col-md-8 d-flex flex-column flex-md-row justify-content-between align-items-center px-3">
+                                <div class="col-md-11 px-md-3">
+                                    <p class="jobDesc mt-2 mt-md-0">Are you a creative storyteller with a passion for
+                                        digital trends
+                                        and a knack for
+                                        building
+                                        brand presence online? We’re looking for a Social Media Marketer to join our
+                                        growing
+                                        team!Are you a creative storyteller with a passion for digital trends and a
+                                        knack
+                                        for
+                                        building brand presence</p>
+                                </div>
+                                <div class="align-self-end align-self-md-center" style="cursor: pointer;">
+                                    <img src="./assets/svg-icons/arrow-back-left.svg" alt="arrow" style="width: 40px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr />
 
     <!-- DIV CALL TO ACTION -->
     <section class="CallToAction" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
@@ -366,6 +601,7 @@
     </script>
     <!-- Bootstrap 5 JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
