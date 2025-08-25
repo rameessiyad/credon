@@ -406,6 +406,18 @@
         }
     }
 
+    .ourRoleCardsContainer {
+        padding: 0 !important;
+
+        .OurRoleCard {
+            width: 100% !important;
+
+            .Bg {
+                width: 100% !important;
+            }
+        }
+    }
+
     .FaqSection {
         background: var(--light-gray);
 
