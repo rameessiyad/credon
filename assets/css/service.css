@@ -160,6 +160,17 @@
         font-weight: 400;
     }
 
+    .answer.collapse {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
+    }
+
+    .answer.collapse.show {
+        max-height: 500px;
+        /* adjust based on content */
+    }
+
     .toggle-btn {
         padding: 8px;
         background: var(--primary-color);
