@@ -138,6 +138,13 @@
     }
 }
 
+.keyBenefitsP {
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 1.2rem !important;
+}
+
 /* responsive styles */
 @media screen and (max-width: 768px) {
     .Cnt {
