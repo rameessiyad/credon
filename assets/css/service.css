@@ -110,6 +110,11 @@
     backdrop-filter: blur(10px) !important;
 }
 
+.tradePara {
+    font-size: 1.3rem !important;
+}
+
+
 .WhyTradeContainer {
     background: var(--primary-hover);
 
@@ -195,6 +200,10 @@
 
 /* responsive styles */
 @media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.6rem !important;
+    }
+
     .Cnt {
         .title {
             font-size: 2rem !important;
@@ -204,6 +213,79 @@
 
         .description {
             font-size: 0.9rem !important;
+        }
+    }
+
+    .tradePara {
+        font-size: 1rem !important;
+    }
+
+
+    .WhyTradeContainer {
+        background: var(--primary-hover);
+
+        h3 {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .imgCards {
+            img {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .FaqSection {
+        background: var(--light-gray);
+
+        h2 {
+            font-size: 1.7rem;
+            color: var(--primary-color);
+            font-weight: 400;
+        }
+
+        h5 {
+            font-size: 1rem;
+            color: var(--primary-color);
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 0.9rem;
+            color: var(--primary-color);
+            font-weight: 400;
+        }
+
+        .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+
+        .answer.show {
+            max-height: 500px;
+        }
+
+        .toggle-btn {
+            padding: 4px;
+            background: var(--primary-color);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            i {
+                color: var(--white-color);
+                font-size: 0.6rem;
+            }
+
         }
     }
 }
