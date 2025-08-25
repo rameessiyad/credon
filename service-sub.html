@@ -256,6 +256,71 @@
         </div>
     </section>
 
+    <!-- FAQ SECTION -->
+    <section class="mt-5 FaqSection">
+        <div class="container py-5">
+            <h2 class="text-center">Frequently asked questions</h2 class="text-center">
+            <p class="text-center">Explore our latest articles and travel advice.</p>
+
+            <div class="row p-2 g-3">
+                <!-- FAQ Card 1 -->
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">What is the best time to travel?</h5>
+                            <button class="btn btn-outline-primary btn-sm toggle-btn">+</button>
+                        </div>
+                        <div class="card-footer answer collapse">
+                            The best time to travel depends on your destination and preferences. Generally, spring and
+                            autumn are favorable in most regions.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Card 2 -->
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">How do I book a flight?</h5>
+                            <button class="btn btn-outline-primary btn-sm toggle-btn">+</button>
+                        </div>
+                        <div class="card-footer answer collapse">
+                            You can book a flight online through airlines’ websites, travel agencies, or flight
+                            aggregator platforms.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Card 3 -->
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">Do I need travel insurance?</h5>
+                            <button class="btn btn-outline-primary btn-sm toggle-btn">+</button>
+                        </div>
+                        <div class="card-footer answer collapse">
+                            Travel insurance is highly recommended to cover unexpected events such as illness,
+                            cancellations, or lost luggage.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Card 4 -->
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">Can I travel internationally during COVID?</h5>
+                            <button class="btn btn-outline-primary btn-sm toggle-btn">+</button>
+                        </div>
+                        <div class="card-footer answer collapse">
+                            International travel may be subject to restrictions. Check government guidelines and airline
+                            policies before planning your trip.
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
     <!-- DIV CALL TO ACTION -->
     <section class="CallToAction" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
         <div class="container">
@@ -415,6 +480,21 @@
             </div>
         </div>
     </footer>
+
+    <!-- JavaScript for toggle -->
+    <script>
+        const toggleButtons = document.querySelectorAll('.toggle-btn');
+
+        toggleButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const answer = btn.closest('.card').querySelector('.answer');
+                answer.classList.toggle('show');
+
+                // Toggle plus/minus
+                btn.textContent = answer.classList.contains('show') ? '−' : '+';
+            });
+        });
+    </script>
 
     <!-- jaquary -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- SLICK JS -->
