@@ -241,6 +241,12 @@
         }
     }
 
+    .KeyBenefits {
+        p {
+            font-size: 1rem !important;
+        }
+    }
+
     .FaqSection {
         background: var(--light-gray);
 
