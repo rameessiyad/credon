@@ -233,6 +233,7 @@
 
 .KeyBenefitsCard {
     background: var(--light-gray);
+    padding: 20px 50px !important;
 
     p {
         color: var(--primary-color);
