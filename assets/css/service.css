@@ -183,6 +183,16 @@
     }
 }
 
+.OurRole {
+    h2 {
+        font-size: 2.6rem;
+    }
+
+    p {
+        color: var(--primary-color);
+    }
+}
+
 .ourRoleCardsContainer {
     display: flex;
     /* align-items: center; */
