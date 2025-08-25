@@ -159,6 +159,22 @@
         color: var(--primary-color);
         font-weight: 400;
     }
+
+    .toggle-btn {
+        padding: 8px;
+        background: var(--primary-color);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        i {
+            color: var(--white-color);
+            font-size: 0.8rem;
+        }
+
+    }
 }
 
 /* responsive styles */
