@@ -112,6 +112,7 @@
 
 .tradePara {
     font-size: 1.3rem !important;
+    color: var(--dark-gray) !important;
 }
 
 
@@ -313,6 +314,16 @@
             width: 50% !important;
         }
     }
+
+    .tradeParaContainer {
+        flex-direction: column !important;
+    }
+
+    .paraDiv {
+        width: 100% !important;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -357,9 +368,41 @@
         }
     }
 
+    .CardContent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 2px;
+
+        .iconContainer {
+            padding: 7px;
+            border-radius: 50%;
+            border: 1px solid var(--white-color);
+        }
+
+        p {
+            font-size: 1rem !important;
+            font-weight: 400;
+        }
+    }
+
     .KeyBenefits {
         p {
             font-size: 1rem !important;
+        }
+
+        .KeyBenefitsCard {
+            padding: 10px !important;
+
+            span {
+                margin: 0 !important;
+            }
+
         }
     }
 
@@ -408,6 +451,27 @@
                 font-size: 0.6rem;
             }
 
+        }
+    }
+
+    .Bg {
+        h1 {
+            font-size: 40px !important;
+            background-color: #7cc8f8;
+            width: 100px !important;
+            height: 100px !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            color: var(--white-color);
+            border-radius: 14px;
+        }
+
+        h3 {
+            font-size: 18px !important;
+            color: var(--primary-color);
+            font-weight: 400;
         }
     }
 }
