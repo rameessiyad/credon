@@ -183,6 +183,44 @@
     }
 }
 
+.ourRoleCardsContainer {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* gap: 1rem; */
+    /* flex-wrap: wrap; */
+    row-gap: 1.4rem;
+}
+
+.Bg {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to bottom right,
+            rgba(255, 255, 255, 0.6),
+            rgba(9, 121, 248, 0.31));
+    overflow: hidden;
+    border-radius: 16px;
+
+    h1 {
+        font-size: 65px;
+        background-color: #7cc8f8;
+        width: 130px;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        color: var(--white-color);
+        border-radius: 16px;
+    }
+
+    h3 {
+        color: var(--primary-color);
+        font-weight: 400;
+    }
+}
+
 .KeyBenefitsCard {
     background: var(--light-gray);
 
