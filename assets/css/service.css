@@ -111,6 +111,182 @@
     border-radius: 12px !important;
 }
 
+.Solutions {
+    margin-top: 130px;
+
+    h2 {
+        color: var(--primary-color);
+        /* font-size: 32px */
+    }
+
+    h3 {
+        color: var(--primary-color);
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    h4 {
+        color: var(--primary-color);
+        font-size: 26px;
+        margin: 0;
+    }
+
+    h5 {
+        color: var(--primary-color);
+        font-size: 32px;
+        margin: 0;
+    }
+
+    a {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        padding: 11px 20px;
+        border-radius: 6px;
+        background-color: var(--primary-color);
+        color: var(--black-color);
+        color: var(--primary-hover);
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    }
+
+    .solutionsCardContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .solutionsCardFull {
+            width: fit-content;
+        }
+
+        .solutionsCard {
+            width: fit-content;
+        }
+    }
+
+    .readMore {
+        font-weight: 550;
+    }
+
+    .realEstateCard {
+        background: #D6EFFF;
+        min-height: 100%;
+
+        .readMoreContainer {
+            background: white;
+
+            .arrow-hover {
+                display: none;
+            }
+        }
+
+    }
+
+    .realEstateCard:hover {
+        background: #EDEFEF;
+
+        .readMoreContainer {
+            background: var(--secondary-color);
+
+            .first-arrow {
+                display: none;
+            }
+
+            .arrow-hover {
+                display: block;
+            }
+        }
+    }
+
+    .realEstateCard:hover .readMore {
+        color: var(--primary-color);
+    }
+}
+
+.strategic {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.strategicImgContainer {
+    position: relative;
+    overflow: hidden;
+
+    .strategicTitle {
+        color: var(--white-color);
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .strategicContent {
+        color: var(--white-color);
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+.strategicImgContainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* White overlay by default */
+.strategicImgContainer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--primary-color);
+    opacity: 0.6;
+    transition: background-color 0.3s ease;
+}
+
+/* When hovering the image container */
+.strategicImgContainer:hover::before {
+    background-color: var(--white-color);
+    opacity: 0.6;
+}
+
+.strategicImgContainer:hover .strategicTitle,
+.strategicImgContainer:hover .strategicContent {
+    color: var(--primary-color);
+}
+
+.strategicImgContainer {
+    .readMore {
+        color: var(--white-color);
+    }
+
+    .readMoreContainer {
+        background: white;
+
+        .arrow-hover {
+            display: none;
+        }
+    }
+
+}
+
+.strategicImgContainer:hover {
+    background: #EDEFEF;
+
+    .readMoreContainer {
+        background: var(--secondary-color);
+
+        .first-arrow {
+            display: none;
+        }
+
+        .arrow-hover {
+            display: block;
+        }
+    }
+}
+
+.strategicImgContainer:hover .readMore {
+    color: var(--primary-color);
+}
+
 .tradePara {
     font-size: 1.5rem !important;
     color: var(--primary-color) !important;
@@ -342,10 +518,93 @@
         width: 100% !important;
     }
 
+}
 
+@media screen and (max-width: 1024px) {
+    .strategicFullContainer {
+        h3 {
+            font-size: 1.4rem !important;
+        }
+
+        p {
+            margin-top: 1rem !important;
+            font-size: 0.9rem !important;
+            line-height: 1.1 !important;
+        }
+
+        .readMore {
+            font-size: 0.8rem !important;
+        }
+
+        .readMoreContainer {
+            padding: 2px !important;
+
+            img {
+                width: 20px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+    /* .strategic {
+        
+        gap: 3px !important;
+    } */
+    .strategicFullContainer {
+        h3 {
+            font-size: 2rem !important;
+        }
+
+        p {
+            /* margin-top: 1.2rem !important; */
+            font-size: 1.1rem !important;
+            line-height: 1.5 !important;
+        }
+
+        .readMore {
+            font-size: 1rem !important;
+        }
+
+        .readMoreContainer {
+            /* padding: 2px !important; */
+
+            img {
+                width: 30px !important;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .strategic {
+        gap: 10px !important;
+    }
+    .strategicFullContainer {
+        h3 {
+            font-size: 1.5rem !important;
+        }
+
+        p {
+            /* margin-top: 1.2rem !important; */
+            font-size: 0.95rem !important;
+            line-height: 1 !important;
+        }
+
+        .readMore {
+            font-size: 1rem !important;
+        }
+
+        .readMoreContainer {
+            /* padding: 2px !important; */
+
+            img {
+                width: 20px !important;
+            }
+        }
+    }
+
     .realEstateCard {
         h3 {
             font-size: 1.3rem !important;
