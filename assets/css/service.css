@@ -307,8 +307,20 @@
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     .realEstateCard {
-        h2 {
-            font-size: 0.5rem !important;
+        h3 {
+            font-size: 1.3rem !important;
+        }
+
+        p {
+            font-size: 14px !important;
+        }
+
+        .readMoreContainer {
+            padding: 1px !important;
+
+            img {
+                width: 30px !important;
+            }
         }
     }
 
@@ -334,6 +346,28 @@
 }
 
 @media screen and (max-width: 768px) {
+    .realEstateCard {
+        h3 {
+            font-size: 1.3rem !important;
+
+            br {
+                display: none !important;
+            }
+
+            p {
+                font-size: 12px !important;
+            }
+        }
+
+        .readMoreContainer {
+            padding: 1px !important;
+
+            img {
+                width: 30px !important;
+            }
+        }
+    }
+
     h2 {
         font-size: 1.6rem !important;
     }
