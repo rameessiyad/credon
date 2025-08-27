@@ -894,7 +894,7 @@
         }
 
         .whyChooseCard {
-            padding: 30px 20px;
+            padding: 20px 20px;
             background: url("/assets/images/services/whychoosecardbg.png");
             height: 100%;
             width: 100%;
@@ -910,6 +910,7 @@
                 font-size: 0.5rem !important;
                 color: var(--white-color);
                 font-weight: 600;
+                margin-top: 0 !important;
             }
         }
     }
