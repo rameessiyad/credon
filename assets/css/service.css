@@ -411,6 +411,8 @@
     /* gap: 1rem; */
     /* flex-wrap: wrap; */
     row-gap: 1.4rem;
+    justify-content: space-between !important;
+    align-items: center !important;
 
     .OurRoleCard {
         h3 {
@@ -828,7 +830,7 @@
         }
 
         h3 {
-            font-size: 18px !important;
+            font-size: 18px;
             color: var(--primary-color) !important;
             font-weight: 400;
         }
@@ -912,6 +914,37 @@
                 font-weight: 600;
                 margin-top: 0 !important;
             }
+        }
+    }
+
+    .Bg {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: linear-gradient(to bottom right,
+                rgba(255, 255, 255, 0.6),
+                rgba(9, 121, 248, 0.31));
+        overflow: hidden;
+        border-radius: 16px;
+
+        h1 {
+            flex-shrink: 0;
+            font-size: 32px;
+            background-color: #7cc8f8;
+            width: 130px !important;
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            color: var(--white-color);
+            border-radius: 16px;
+        }
+
+        h3 {
+            font-size: 12px !important;
+            color: var(--primary-color);
+            font-weight: 400;
         }
     }
 
