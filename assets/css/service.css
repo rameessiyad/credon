@@ -371,13 +371,21 @@
     }
 }
 
-.whyChooseContainer{
+.whyChooseContainer {
     background: var(--primary-hover);
 
     h3 {
         font-size: 2.5rem;
         color: var(--primary-color);
         font-weight: 400;
+    }
+
+    p {
+        font-size: 1.2rem !important;
+    }
+
+    .whyChooseCard {
+        background: var(--primary-color);
     }
 }
 
