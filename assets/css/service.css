@@ -203,7 +203,7 @@
     }
 }
 
-.strategic {
+/* .strategic {
     border-radius: 14px;
     overflow: hidden;
 }
@@ -231,7 +231,6 @@
     display: block;
 }
 
-/* White overlay by default */
 .strategicImgContainer::before {
     content: "";
     position: absolute;
@@ -241,7 +240,6 @@
     transition: background-color 0.3s ease;
 }
 
-/* When hovering the image container */
 .strategicImgContainer:hover::before {
     background-color: var(--white-color);
     opacity: 0.6;
@@ -285,7 +283,7 @@
 
 .strategicImgContainer:hover .readMore {
     color: var(--primary-color);
-}
+} */
 
 .tradePara {
     font-size: 1.5rem !important;
