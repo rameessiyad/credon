@@ -285,6 +285,39 @@
     color: var(--primary-color);
 } */
 
+.strategic {
+    overflow: hidden;
+    height: 544px !important;
+
+    .strategic1 {
+        background: url("/assets/images/services/strategic-img1.png");
+        /* background-size: co; */
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30px;
+        width: 544px;
+        height: 655px;
+    }
+
+    .strategic2 {
+        background: url("/assets/images/services/strategic-img2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30px;
+        width: 544px;
+        height: 655px;
+    }
+
+    .strategic3 {
+        background: url("/assets/images/services/stragetic-img3.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30px;
+        width: 544px;
+        height: 655px;
+    }
+}
+
 .tradePara {
     font-size: 1.5rem !important;
     color: var(--primary-color) !important;
