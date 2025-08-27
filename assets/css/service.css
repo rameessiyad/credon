@@ -378,6 +378,12 @@
     /* gap: 1rem; */
     /* flex-wrap: wrap; */
     row-gap: 1.4rem;
+
+    .OurRoleCard {
+        h3 {
+            font-size: 1.3rem !important;
+        }
+    }
 }
 
 .Bg {
@@ -391,9 +397,10 @@
     border-radius: 16px;
 
     h1 {
-        font-size: 65px;
+        flex-shrink: 0;
+        font-size: 63px;
         background-color: #7cc8f8;
-        width: 130px;
+        width: 130px !important;
         height: 130px;
         display: flex;
         align-items: center;
