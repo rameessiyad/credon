@@ -289,33 +289,54 @@
     overflow: hidden;
     height: 544px !important;
 
-    .strategic1 {
-        background: url("/assets/images/services/strategic-img1.png");
-        /* background-size: co; */
+    .strategicCard {
         background-repeat: no-repeat;
         background-position: center;
         padding: 30px;
         width: 544px;
         height: 655px;
+
+        .strategicCardContent {
+            h3 {
+                font-size: 2.2rem !important;
+                color: var(--white-color);
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 1.25rem !important;
+                color: var(--white-color);
+            }
+
+            .readMoreContainer {
+                p {
+                    font-size: 1.1rem !important;
+                }
+
+                background: white;
+
+                .arrow-hover {
+                    display: none;
+                }
+            }
+
+        }
+    }
+
+    .strategic1 {
+        background: url("/assets/images/services/strategic-img1.png");
     }
 
     .strategic2 {
         background: url("/assets/images/services/strategic-img2.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        padding: 30px;
-        width: 544px;
-        height: 655px;
+
     }
 
     .strategic3 {
         background: url("/assets/images/services/stragetic-img3.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        padding: 30px;
-        width: 544px;
-        height: 655px;
+
     }
+
 }
 
 .tradePara {
