@@ -385,7 +385,16 @@
     }
 
     .whyChooseCard {
-        background: var(--primary-color);
+        padding: 30px 20px;
+        background: url("/assets/images/services/whychoosecardbg.png");
+        background-repeat: no-repeat;
+        overflow: hidden;
+
+        p {
+            font-size: 1.1rem !important;
+            color: var(--white-color);
+            font-weight: 600;
+        }
     }
 }
 
