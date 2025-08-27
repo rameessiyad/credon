@@ -286,18 +286,30 @@
 } */
 
 .strategic {
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 544px !important;
+    border-radius: 20px;
+    padding: 0 !important;
+    overflow: hidden;
 
     .strategicCard {
         background-repeat: no-repeat;
         background-position: center;
+        position: relative;
         padding: 30px;
         width: 544px;
-        height: 655px;
+        height: 100%;
+        overflow: hidden;
+
 
         .strategicCardContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100% !important;
+
             h3 {
+                z-index: 1001;
                 font-size: 2.2rem !important;
                 color: var(--white-color);
                 font-weight: 500;
@@ -309,6 +321,8 @@
             }
 
             .readMoreContainer {
+                z-index: 1000;
+
                 p {
                     font-size: 1.1rem !important;
                 }
@@ -320,6 +334,55 @@
                 }
             }
 
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: var(--primary-color);
+            opacity: 0.6;
+            transition: background-color 0.3s ease;
+        }
+
+        &:hover {
+            .strategicCardContent {
+                h3 {
+                    z-index: 1001;
+                    font-size: 2.2rem !important;
+                    color: var(--primary-color);
+                    font-weight: 500;
+                }
+
+                p {
+                    font-size: 1.25rem !important;
+                    color: var(--primary-color);
+                }
+
+                .readMoreContainer {
+                    z-index: 1000;
+
+                    p {
+                        font-size: 1.1rem !important;
+                    }
+
+                    background: var(--secondary-color);
+
+                    .first-arrow {
+                        display: none;
+                    }
+
+                    .arrow-hover {
+                        display: block;
+                    }
+                }
+
+            }
+        }
+
+        &:hover::before {
+            background-color: var(--white-color);
+            opacity: 0.6;
         }
     }
 
@@ -358,31 +421,6 @@
         font-size: 1.2rem;
     }
 }
-
-/* .imgCard {
-    background-image: url("/assets/images/services/img-card-bg.png");
-    background-repeat: no-repeat;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    padding: 2px;
-
-    .iconContainer {
-        padding: 4px;
-        border-radius: 50%;
-        border: 1px solid var(--white-color);
-    }
-
-    p {
-        font-size: 1.3rem !important;
-        color: var(--white-color);
-        font-weight: bolder;
-    }
-
-} */
 
 .imgCards {
     .Card {
@@ -679,31 +717,121 @@
 
 @media screen and (max-width: 768px) {
     .strategic {
+        /* overflow: hidden; */
+        height: 544px !important;
+        border-radius: 20px;
+        padding: 0 !important;
+        /* overflow: hidden; */
         gap: 10px !important;
-    }
 
-    .strategicFullContainer {
-        h3 {
-            font-size: 1.5rem !important;
-        }
+        .strategicCard {
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            padding: 14px;
+            width: 544px;
+            /* height: 100%;     */
+            overflow: hidden;
 
-        p {
-            /* margin-top: 1.2rem !important; */
-            font-size: 0.95rem !important;
-            line-height: 1 !important;
-        }
 
-        .readMore {
-            font-size: 1rem !important;
-        }
+            .strategicCardContent {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100% !important;
 
-        .readMoreContainer {
-            /* padding: 2px !important; */
+                h3 {
+                    z-index: 1001;
+                    font-size: 1.2rem !important;
+                    color: var(--white-color);
+                    font-weight: 500;
+                }
 
-            img {
-                width: 20px !important;
+                p {
+                    font-size: 1rem !important;
+                    color: var(--white-color);
+                }
+
+                .readMoreContainer {
+                    z-index: 1000;
+
+                    p {
+                        font-size: 1.1rem !important;
+                    }
+
+                    background: white;
+
+                    .arrow-hover {
+                        display: none;
+                    }
+                }
+
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background-color: var(--primary-color);
+                opacity: 0.6;
+                transition: background-color 0.3s ease;
+            }
+
+            &:hover {
+                .strategicCardContent {
+                    h3 {
+                        z-index: 1001;
+                        font-size: 2.2rem !important;
+                        color: var(--primary-color);
+                        font-weight: 500;
+                    }
+
+                    p {
+                        font-size: 1.25rem !important;
+                        color: var(--primary-color);
+                    }
+
+                    .readMoreContainer {
+                        z-index: 1000;
+
+                        p {
+                            font-size: 1.1rem !important;
+                        }
+
+                        background: var(--secondary-color);
+
+                        .first-arrow {
+                            display: none;
+                        }
+
+                        .arrow-hover {
+                            display: block;
+                        }
+                    }
+
+                }
+            }
+
+            &:hover::before {
+                background-color: var(--white-color);
+                opacity: 0.6;
             }
         }
+
+        .strategic1 {
+            background: url("/assets/images/services/strategic-img1.png");
+        }
+
+        .strategic2 {
+            background: url("/assets/images/services/strategic-img2.png");
+
+        }
+
+        .strategic3 {
+            background: url("/assets/images/services/stragetic-img3.png");
+
+        }
+
     }
 
     .realEstateCard {
