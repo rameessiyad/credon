@@ -1465,7 +1465,7 @@ footer {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
   }
 
-  .solutionsCardContainer {
+  /* .solutionsCardContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1477,7 +1477,7 @@ footer {
     .solutionsCard {
       width: fit-content;
     }
-  }
+  } */
 
   .readMore {
     font-weight: 550;
