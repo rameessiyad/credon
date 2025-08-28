@@ -286,9 +286,8 @@
 } */
 
 .strategic {
-    /* overflow: hidden; */
-    height: 544px !important;
     border-radius: 20px;
+    height: auto !important;
     padding: 0 !important;
     overflow: hidden;
 
@@ -297,7 +296,7 @@
         background-position: center;
         position: relative;
         padding: 30px;
-        width: 544px;
+        width: 100% !important;
         height: 100%;
         overflow: hidden;
 
@@ -310,13 +309,13 @@
 
             h3 {
                 z-index: 1001;
-                font-size: 2.2rem !important;
+                font-size: 2.2rem;
                 color: var(--white-color);
                 font-weight: 500;
             }
 
             p {
-                font-size: 1.25rem !important;
+                font-size: 1.25rem;
                 color: var(--white-color);
             }
 
@@ -324,7 +323,7 @@
                 z-index: 1000;
 
                 p {
-                    font-size: 1.1rem !important;
+                    font-size: 1.1rem;
                 }
 
                 background: white;
@@ -620,6 +619,100 @@
 /* responsive styles */
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
+    .strategicCard {
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        padding: 30px;
+        width: 100% !important;
+        height: 100%;
+        overflow: hidden;
+
+
+        .strategicCardContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100% !important;
+
+            h3 {
+                z-index: 1001;
+                font-size: 1.7rem !important;
+                color: var(--white-color);
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 1rem !important;
+                color: var(--white-color);
+            }
+
+            .readMoreContainer {
+                z-index: 1000;
+
+                p {
+                    font-size: 1.1rem !important;
+                }
+
+                background: white;
+
+                .arrow-hover {
+                    display: none;
+                }
+            }
+
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: var(--primary-color);
+            opacity: 0.6;
+            transition: background-color 0.3s ease;
+        }
+
+        &:hover {
+            .strategicCardContent {
+                h3 {
+                    z-index: 1001;
+                    font-size: 1.9rem !important;
+                    color: var(--primary-color);
+                    font-weight: 500;
+                }
+
+                p {
+                    font-size: 0.9rem !important;
+                    color: var(--primary-color);
+                }
+
+                .readMoreContainer {
+                    z-index: 1000;
+
+                    p {
+                        font-size: 1rem !important;
+                    }
+
+                    background: var(--secondary-color);
+
+                    .first-arrow {
+                        display: none;
+                    }
+
+                    .arrow-hover {
+                        display: block;
+                    }
+                }
+
+            }
+        }
+
+        &:hover::before {
+            background-color: var(--white-color);
+            opacity: 0.6;
+        }
+    }
+
     .realEstateCard {
         h3 {
             font-size: 1.3rem !important;
@@ -658,97 +751,38 @@
 
 }
 
-@media screen and (max-width: 1024px) {
-    .strategicFullContainer {
-        h3 {
-            font-size: 1.4rem !important;
-        }
-
-        p {
-            margin-top: 1rem !important;
-            font-size: 0.9rem !important;
-            line-height: 1.1 !important;
-        }
-
-        .readMore {
-            font-size: 0.8rem !important;
-        }
-
-        .readMoreContainer {
-            padding: 2px !important;
-
-            img {
-                width: 20px !important;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 991px) and (min-width: 768px) {
-
-    /* .strategic {
-        
-        gap: 3px !important;
-    } */
-    .strategicFullContainer {
-        h3 {
-            font-size: 2rem !important;
-        }
-
-        p {
-            /* margin-top: 1.2rem !important; */
-            font-size: 1.1rem !important;
-            line-height: 1.5 !important;
-        }
-
-        .readMore {
-            font-size: 1rem !important;
-        }
-
-        .readMoreContainer {
-            /* padding: 2px !important; */
-
-            img {
-                width: 30px !important;
-            }
-        }
-    }
-}
 
 @media screen and (max-width: 768px) {
     .strategic {
-        /* overflow: hidden; */
-        height: 544px !important;
-        border-radius: 20px;
-        padding: 0 !important;
-        /* overflow: hidden; */
-        gap: 10px !important;
+        height: auto !important;
+        gap: 14px !important;
+        border-radius: 0 !important;
 
         .strategicCard {
             background-repeat: no-repeat;
             background-position: center;
             position: relative;
-            padding: 14px;
-            width: 544px;
-            /* height: 100%;     */
+            padding: 20px;
+            width: 100% !important;
+            height: 600px !important;
             overflow: hidden;
-
+            border-radius: 20px;
 
             .strategicCardContent {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                height: 100% !important;
+                /* height: 100% !important; */
 
                 h3 {
                     z-index: 1001;
-                    font-size: 1.2rem !important;
+                    font-size: 2.5rem !important;
                     color: var(--white-color);
                     font-weight: 500;
                 }
 
                 p {
-                    font-size: 1rem !important;
+                    font-size: 2rem !important;
                     color: var(--white-color);
                 }
 
@@ -1061,6 +1095,121 @@
 }
 
 @media screen and (max-width: 512px) {
+    .strategic {
+        height: auto !important;
+        gap: 18px !important;
+        border-radius: 0 !important;
+
+        .strategicCard {
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            padding: 20px;
+            width: 100% !important;
+            height: 600px !important;
+            overflow: hidden;
+
+
+            .strategicCardContent {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                /* height: 100% !important; */
+
+                h3 {
+                    z-index: 1001;
+                    font-size: 1.9rem !important;
+                    color: var(--white-color);
+                    font-weight: 500;
+                }
+
+                p {
+                    font-size: 1.1rem !important;
+                    color: var(--white-color);
+                }
+
+                .readMoreContainer {
+                    z-index: 1000;
+
+                    p {
+                        font-size: 1.1rem !important;
+                    }
+
+                    background: white;
+
+                    .arrow-hover {
+                        display: none;
+                    }
+                }
+
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background-color: var(--primary-color);
+                opacity: 0.6;
+                transition: background-color 0.3s ease;
+            }
+
+            &:hover {
+                .strategicCardContent {
+                    h3 {
+                        z-index: 1001;
+                        font-size: 2.2rem !important;
+                        color: var(--primary-color);
+                        font-weight: 500;
+                    }
+
+                    p {
+                        font-size: 1.25rem !important;
+                        color: var(--primary-color);
+                    }
+
+                    .readMoreContainer {
+                        z-index: 1000;
+
+                        p {
+                            font-size: 1.1rem !important;
+                        }
+
+                        background: var(--secondary-color);
+
+                        .first-arrow {
+                            display: none;
+                        }
+
+                        .arrow-hover {
+                            display: block;
+                        }
+                    }
+
+                }
+            }
+
+            &:hover::before {
+                background-color: var(--white-color);
+                opacity: 0.6;
+            }
+        }
+
+        .strategic1 {
+            background: url("/assets/images/services/strategic-img1.png");
+        }
+
+        .strategic2 {
+            background: url("/assets/images/services/strategic-img2.png");
+
+        }
+
+        .strategic3 {
+            background: url("/assets/images/services/stragetic-img3.png");
+
+        }
+
+    }
+
     .whyChooseContainer {
         background: var(--primary-hover);
 
