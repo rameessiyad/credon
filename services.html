@@ -206,6 +206,60 @@
             <div class="container">
                 <div class="row w-100 p-0 solutionsCardContainer" data-aos="fade-up" data-aos-delay="200"
                     data-aos-duration="1200">
+
+                    <!-- card 1 -->
+                    <div class="solutinsCard active" id="card1">
+                        <div class="d-flex flex-column cardContent">
+                            <h3>Trade & Working Capital</h3>
+                            <div class="d-flex">
+                                <p>Read More</p>
+                                <img src="./assets/svg-icons/arrow-right-rounded.png" alt="arrow" style="width: 40px;">
+                            </div>
+                        </div>
+                        <div class="cardContentHover">
+                            <div class="TextContent">
+                                <h3>Trade & Working Capital</h3>
+                                <p class="cardText">Short-term funding solutions for property purchases, land
+                                    acquisition, or during
+                                    construction phases—ideal when timing is critical or traditional loans aren’t
+                                    suitable.
+                                </p>
+                                <div class="d-flex">
+                                    <p>Read More</p>
+                                    <img src="./assets/svg-icons/arrowuprounded.png" alt="arrow" style="width: 40px;">
+                                </div>
+                            </div>
+                            <img src="./assets/images/services/trade&working.png" alt="card-img">
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="solutinsCard active" id="card1">
+                        <div class="d-flex flex-column cardContent">
+                            <h3>Trade & Working Capital</h3>
+                            <div class="d-flex">
+                                <p>Read More</p>
+                                <img src="./assets/svg-icons/arrow-right-rounded.png" alt="arrow" style="width: 40px;">
+                            </div>
+                        </div>
+                        <div class="cardContentHover">
+                            <div class="TextContent">
+                                <h3>Trade & Working Capital</h3>
+                                <p class="cardText">Short-term funding solutions for property purchases, land
+                                    acquisition, or during
+                                    construction phases—ideal when timing is critical or traditional loans aren’t
+                                    suitable.
+                                </p>
+                                <div class="d-flex">
+                                    <p>Read More</p>
+                                    <img src="./assets/svg-icons/arrowuprounded.png" alt="arrow" style="width: 40px;">
+                                </div>
+                            </div>
+                            <img src="./assets/images/services/trade&working.png" alt="card-img">
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
                     <div class="solutinsCard active" id="card1">
                         <div class="d-flex flex-column cardContent">
                             <h3>Trade & Working Capital</h3>
@@ -614,6 +668,22 @@
         AOS.init({
             once: false,
         });
+    </script>
+
+    <script>
+        const cards = document.querySelectorAll('.solutinsCard');
+
+        cards.forEach(card => {
+            card.addEventListener("mouseenter", () => {
+                cards.forEach(c => {
+                    c.classList.remove('active');
+                    c.classList.add('inactive');
+                });
+
+                card.classList.remove('inactive');
+                card.classList.add('active');
+            })
+        })
     </script>
     <!-- JS -->
     <script src="assets/js/main.js"></script>

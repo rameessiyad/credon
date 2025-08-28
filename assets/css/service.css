@@ -150,7 +150,7 @@
         transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     }
 
-    .solutionsCardContainer {
+    /* .solutionsCardContainer {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -162,7 +162,7 @@
         .solutionsCard {
             width: fit-content;
         }
-    }
+    } */
 
     .readMore {
         font-weight: 550;
@@ -203,6 +203,87 @@
     }
 }
 
+
+.solutionsCardContainer {
+    .solutinsCard {
+        flex: 0 0 30%;
+        /* inactive width */
+        min-height: 260px;
+        border-radius: 12px;
+        overflow: hidden;
+        transition: all 0.4s ease;
+        background: #f0f6fc;
+        /* light bg */
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Active card expands */
+    .solutinsCard.active {
+        flex: 0 0 40%;
+        background: #fff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Inactive look */
+    .solutinsCard.inactive {
+        opacity: 0.9;
+    }
+
+    /* Default content (only visible in inactive) */
+    .cardContent {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .solutinsCard.active .cardContent {
+        display: none;
+    }
+
+    /* Hover content (only visible in active) */
+    .cardContentHover {
+        display: none;
+        flex: 1;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .solutinsCard.active .cardContentHover {
+        display: flex;
+    }
+
+    /* Text & image in active state */
+    .cardContentHover .TextContent {
+        z-index: 2;
+    }
+
+    .cardContentHover img {
+        width: 60%;
+        height: auto;
+        margin-top: 15px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+
+    /* Title styles */
+    .cardContent h3,
+    .cardContentHover h3 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #003366;
+    }
+
+    .cardContentHover .cardText {
+        font-size: 1rem;
+        color: #444;
+    }
+}
 
 
 .strategic {
@@ -997,7 +1078,7 @@
         }
 
         h3 {
-            font-size: 16px ;
+            font-size: 16px;
             color: var(--primary-color) !important;
             font-weight: 400;
         }
