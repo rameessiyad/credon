@@ -475,7 +475,8 @@
 
     .whyChooseCard {
         padding: 30px 20px;
-        background: url("/assets/images/services/whychoosecardbg.png");
+        /* background: url("/assets/images/services/whychoosecardbg.png"); */
+        background: url("/assets/images/services/whychoosecardbg.png") !important;
         background-repeat: no-repeat;
         /* overflow: hidden; */
 
