@@ -246,6 +246,13 @@
         align-items: flex-start;
         justify-content: space-between;
 
+        .ReadMore {
+            p{
+                font-size: 1.2rem;
+                font-weight: bolder;
+            }
+        }
+
 
     }
 
