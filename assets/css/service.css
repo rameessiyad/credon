@@ -749,6 +749,16 @@
                     text-overflow: ellipsis;
                 }
             }
+
+            .readMore {
+                p{
+                    font-size: 0.8rem;
+                }
+
+                img {
+                    width: 40px !important;
+                }
+            }
         }
 
 
