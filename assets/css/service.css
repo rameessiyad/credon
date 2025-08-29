@@ -224,7 +224,7 @@
     .solutinsCard.active {
         flex: 0 0 42%;
         background: url("/assets/images/services/solutions-card-rectangle.png");
-        backgrond-repeat: no-repeat;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -256,7 +256,7 @@
     /* Hover content (only visible in active) */
     .cardContentHover {
         display: none;
-        /* flex: 1; */
+        flex: 1;
         flex-direction: column;
         padding: 10px 2px;
         justify-content: space-between !important;
