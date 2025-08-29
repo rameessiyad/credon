@@ -203,8 +203,9 @@
     }
 }
 
-
+/* desktop */
 .solutionsCardContainer {
+
     /* justify-content: space-between; */
     .solutinsCard {
         flex: 0 0 28%;
@@ -247,7 +248,7 @@
         justify-content: space-between;
 
         .ReadMore {
-            p{
+            p {
                 font-size: 1.2rem;
                 font-weight: bolder;
             }
@@ -302,6 +303,23 @@
     .cardContentHover .cardText {
         font-size: 1rem;
         color: #444;
+    }
+}
+
+/* mobile */
+.solutionsCardMobile {
+    background: url("/assets/images/services/solutionsmobilebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+
+    .ReadMore {
+        p {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
     }
 }
 
