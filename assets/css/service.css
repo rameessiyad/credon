@@ -307,9 +307,9 @@
     }
 
     .cardContentHover cardImg {
-        height: auto;
+        height: auto !important;
         border-radius: 8px;
-        object-fit: cover;
+        object-fit: contain;
     }
 
     /* Title styles */
