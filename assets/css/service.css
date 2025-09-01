@@ -217,6 +217,20 @@
     gap: 10px;
 }
 
+.Solutions .readMoreLinkStrategic{
+    margin-left: auto;
+    width: 100%;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: color 0.3s ease;
+    gap: 10px;
+}
+
 /* desktop */
 .solutionsCardContainer {
 
@@ -453,7 +467,7 @@
         }
     }
 
-    .strategic1 {
+    /* .strategic1 {
         background: url("/assets/images/services/strategic-img1.png");
     }
 
@@ -465,7 +479,7 @@
     .strategic3 {
         background: url("/assets/images/services/stragetic-img3.png");
 
-    }
+    } */
 
 }
 
