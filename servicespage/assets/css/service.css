@@ -203,20 +203,6 @@
     }
 }
 
-.Solutions .readMoreLink {
-    margin-left: 0;
-    width: 100%;
-    padding: 0;
-    background: none;
-    border-radius: 0;
-    color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    transition: color 0.3s ease;
-    gap: 10px;
-}
-
 /* desktop */
 .solutionsCardContainer {
 
@@ -713,7 +699,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-
+           
         }
 
         /* Inactive look */
@@ -734,7 +720,7 @@
             justify-content: space-between;
 
             h3 {
-                font-size: 1.5rem !important;
+                font-size: 1.5rem !important    ;
                 font-weight: 400;
             }
 
@@ -777,7 +763,7 @@
             }
 
             .readMore {
-                p {
+                p{
                     font-size: 0.8rem;
                 }
 
@@ -812,7 +798,6 @@
         }
     }
 }
-
 @media screen and (max-width: 1400px) and (min-width: 1235px) {
     .solutionsCardContainer {
 
@@ -838,7 +823,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-
+           
         }
 
         /* Inactive look */
@@ -859,7 +844,7 @@
             justify-content: space-between;
 
             h3 {
-                font-size: 1.5rem !important;
+                font-size: 1.5rem !important    ;
                 font-weight: 400;
             }
 
@@ -902,7 +887,7 @@
             }
 
             .readMore {
-                p {
+                p{
                     font-size: 0.8rem;
                 }
 
@@ -937,7 +922,6 @@
         }
     }
 }
-
 @media screen and (max-width: 1234px) and (min-width: 768px) {
     .solutionsCardContainer {
 
@@ -963,7 +947,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-
+           
         }
 
         /* Inactive look */
@@ -984,19 +968,15 @@
             justify-content: space-between;
 
             h3 {
-                font-size: 1.3rem !important;
+                font-size: 1.3rem !important    ;
                 font-weight: 400;
             }
 
             .ReadMore {
-                background: none !important;
-                padding: 0px !important;
-
                 p {
                     font-size: 1rem !important;
                     font-weight: bolder;
                 }
-
                 img {
                     width: 55px !important;
                 }
@@ -1034,7 +1014,7 @@
             }
 
             .readMore {
-                p {
+                p{
                     font-size: 0.8rem;
                 }
 
@@ -1075,7 +1055,6 @@
         }
     }
 }
-
 @media screen and (max-width: 1000px) and (min-width: 950px) {
     .solutionsCardContainer {
 
@@ -1101,7 +1080,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-
+           
         }
 
         /* Inactive look */
@@ -1122,7 +1101,7 @@
             justify-content: space-between;
 
             h3 {
-                font-size: 1.5rem !important;
+                font-size: 1.5rem !important    ;
                 font-weight: 400;
             }
 
@@ -1165,7 +1144,7 @@
             }
 
             .readMore {
-                p {
+                p{
                     font-size: 0.8rem;
                 }
 
@@ -1206,7 +1185,6 @@
         }
     }
 }
-
 @media screen and (max-width: 950px) and (min-width: 768px) {
     .solutionsCardContainer {
 
@@ -1232,7 +1210,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-
+           
         }
 
         /* Inactive look */
@@ -1253,7 +1231,7 @@
             justify-content: space-between;
 
             h3 {
-                font-size: 1.5rem !important;
+                font-size: 1.5rem !important    ;
                 font-weight: 400;
             }
 
@@ -1300,7 +1278,7 @@
             }
 
             .readMore {
-                p {
+                p{
                     font-size: 0.8rem;
                 }
 
@@ -1341,7 +1319,6 @@
         }
     }
 }
-
 @media screen and (max-width: 950px) and (min-width: 768px) {
     .solutionsCardContainer {
 
@@ -1367,7 +1344,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-
+           
         }
 
         /* Inactive look */
@@ -1388,17 +1365,11 @@
             justify-content: space-between;
 
             h3 {
-                font-size: 1.3rem !important;
+                font-size: 1.3rem !important    ;
                 font-weight: 400;
             }
 
             .ReadMore {
-
-                a {
-                    background: none !important;
-                    ;
-                }
-
                 p {
                     font-size: 1.2rem;
                     font-weight: bolder;
@@ -1437,7 +1408,7 @@
             }
 
             .readMore {
-                p {
+                p{
                     font-size: 0.8rem;
                 }
 
