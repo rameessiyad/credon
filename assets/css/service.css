@@ -1766,19 +1766,6 @@
             }
         }
 
-        .strategic1 {
-            background: url("/assets/images/services/strategic-img1.png");
-        }
-
-        .strategic2 {
-            background: url("/assets/images/services/strategic-img2.png");
-
-        }
-
-        .strategic3 {
-            background: url("/assets/images/services/stragetic-img3.png");
-
-        }
 
     }
 
@@ -1989,12 +1976,8 @@
             background-repeat: no-repeat;
             overflow: hidden;
 
-            img {
-                width: 40px !important;
-            }
-
             p {
-                font-size: 0.8rem !important;
+                font-size: 0.85rem !important;
                 color: var(--white-color);
                 font-weight: 600;
             }
@@ -2108,20 +2091,6 @@
             }
         }
 
-        .strategic1 {
-            background: url("/assets/images/services/strategic-img1.png");
-        }
-
-        .strategic2 {
-            background: url("/assets/images/services/strategic-img2.png");
-
-        }
-
-        .strategic3 {
-            background: url("/assets/images/services/stragetic-img3.png");
-
-        }
-
     }
 
     .whyChooseContainer {
@@ -2147,12 +2116,8 @@
             background-repeat: no-repeat;
             overflow: hidden;
 
-            img {
-                width: 20px !important;
-            }
-
             p {
-                font-size: 0.5rem !important;
+                font-size: 0.71rem !important;
                 color: var(--white-color);
                 font-weight: 600;
                 margin-top: 0 !important;
