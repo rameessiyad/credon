@@ -1030,11 +1030,12 @@
             flex-direction: column;
             padding: 10px 2px;
             justify-content: space-between !important;
-
+            
             .TextContent {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                min-width: 100% !important;
 
                 h3 {
                     font-size: 1.3rem;
@@ -1055,6 +1056,10 @@
                 img {
                     width: 34px !important;
                 }
+            }
+
+            .cardImg {
+                display: none !important;
             }
         }
 
