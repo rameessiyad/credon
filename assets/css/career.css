@@ -210,6 +210,11 @@
         .jobDesc {
             font-size: 14px !important;
         }
+
+        .jobTitleContainer {
+            border-right: none !important;
+            border-bottom: 1px solid silver;
+        }
     }
 
     .ApplyNowFormContainer {
