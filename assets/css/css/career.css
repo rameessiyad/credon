@@ -1,0 +1,254 @@
+:root {
+    --primary-color: #015c93;
+    --secondary-color: #077afd;
+    --primary-light: #888f96;
+    --primary-hover: #d6efff;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --light-gray: #F3F4F6;
+    --dark-gray: #616162;
+    --secondary-font: "Lexend", sans-serif;
+}
+
+.Banner {
+    .Mob {
+        display: none !important;
+    }
+
+    .Image {
+        height: 100vh;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+
+        .Cnt {
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            transform: translateY(-50%);
+            z-index: 99;
+
+            h1 {
+                font-size: 70px;
+                font-family: var(--secondary-font);
+                font-weight: 400;
+                color: var(--white-color);
+                line-height: 75px;
+                text-transform: capitalize;
+            }
+
+            p {
+                margin: 15px 0;
+                color: var(--primary-hover);
+                opacity: 1;
+            }
+        }
+
+        Img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: bottom;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(to bottom,
+                    rgba(0, 0, 0, 0) 0%,
+                    rgba(0, 0, 0, 0.5) 100%);
+            pointer-events: none;
+            z-index: 1;
+        }
+    }
+
+    .BtnFlex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+        z-index: 9999;
+
+        a {
+            padding: 11px 15px;
+            border-radius: 6px;
+
+            &:nth-child(1) {
+                background-color: var(--white-color);
+                color: var(--black-color);
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+
+                &:hover {
+                    background-color: var(--primary-color);
+                    color: var(--white-color);
+                }
+            }
+
+            &:nth-child(2) {
+                background-color: rgba(0, 0, 0, 0.6);
+                color: var(--white-color);
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+                border: 1px solid transparent;
+
+                &:hover {
+                    border: 1px solid var(--white-color);
+                }
+            }
+        }
+    }
+
+}
+
+.ApplyNowFormContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+    z-index: 9999999;
+    display: none;
+
+    h3 {
+        color: var(--primary-color);
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+    input::placeholder {
+        color: gray;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    select {
+        color: gray;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    button {
+        background: var(--primary-color);
+        color: var(--white-color);
+        transition: all ease 0.3s;
+
+        &:hover {
+            background: var(--primary-hover);
+            color: var(--primary-color);
+        }
+    }
+}
+
+.ApplyNowFormContainer.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Careers {
+    .jobCard {
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.9rem;
+            font-weight: 400;
+        }
+
+        p,
+        span,
+        li {
+            color: var(--dark-gray);
+        }
+
+        .jobDesc {
+            font-size: 16px;
+        }
+
+        .jobTitleContainer {
+            border-right: 1px solid silver;
+        }
+    }
+}
+
+/* responsive styles */
+@media screen and (max-width: 992px) {
+    .jobCard {
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.6rem !important;
+            font-weight: 400;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Cnt {
+        .title {
+            font-size: 2.5rem !important;
+        }
+
+        .description {
+            font-size: 0.9rem !important;
+        }
+    }
+
+    .jobCard {
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.3rem !important;
+            font-weight: 400;
+        }
+
+        .jobDesc {
+            font-size: 14px !important;
+        }
+
+        .jobTitleContainer {
+            border-right: none !important;
+            border-bottom: 1px solid silver;
+        }
+    }
+
+    .ApplyNowFormContainer {
+        .ApplyNowForm {
+            width: 90% !important;
+
+            h3 {
+                font-size: 1.1rem !important;
+            }
+
+            label {
+                display: none !important;
+            }
+
+            button {
+                font-size: 14px !important;
+                padding: 5px 10px !important;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .jobTitleContainer {
+        border-right: none !important;
+        border-bottom: 1px solid silver;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .jobType {
+        flex-direction: column !important;
+        gap: 2px !important;
+    }
+}

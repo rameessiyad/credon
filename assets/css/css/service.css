@@ -216,19 +216,6 @@
     transition: color 0.3s ease;
     gap: 10px;
 }
-.Solutions .ReadMore {
-    margin-left: 0;
-    width: 100%;
-    padding: 0;
-    background: none;
-    border-radius: 0;
-    color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    transition: color 0.3s ease;
-    gap: 10px;
-}
 
 .Solutions .readMoreLinkStrategic {
     margin-left: auto;
@@ -265,7 +252,7 @@
     /* Active card expands */
     .solutinsCard.active {
         flex: 0 0 42%;
-        background: var(--light-gray) !important;
+        background: url("/assets/images/services/solutions-card-rectangle.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -273,7 +260,7 @@
 
     /* Inactive look */
     .solutinsCard.inactive {
-        /* background: url("/assets/images/services/solutionscardbg.png"); */
+        background: url("/assets/images/services/solutionscardbg.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -355,7 +342,7 @@
 
 /* mobile */
 .solutionsCardMobile {
-    /* background: url("/assets/images/services/solutionsmobilebg.png"); */
+    background: url("/assets/images/services/solutionsmobilebg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -375,10 +362,6 @@
             font-size: 1.2rem;
             color: var(--primary-color);
             font-weight: bold;
-        }
-
-        img {
-            width: 44px !important;
         }
     }
 }
@@ -575,6 +558,7 @@
     .whyChooseCard {
         padding: 30px 20px;
         /* background: url("/assets/images/services/whychoosecardbg.png"); */
+        background: url("/assets/images/services/whychoosecardbg.png") !important;
         background-repeat: no-repeat;
         /* overflow: hidden; */
 
@@ -739,7 +723,7 @@
         /* Active card expands */
         .solutinsCard.active {
             flex: 0 0 40%;
-            /* background: url("/assets/images/services/solutions-card-rectangle.png"); */
+            background: url("/assets/images/services/solutions-card-rectangle.png");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -748,7 +732,7 @@
 
         /* Inactive look */
         .solutinsCard.inactive {
-            /* background: url("/assets/images/services/solutionscardbg.png"); */
+            background: url("/assets/images/services/solutionscardbg.png");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -864,7 +848,7 @@
         /* Active card expands */
         .solutinsCard.active {
             flex: 0 0 40%;
-            /* background: url("/assets/images/services/solutions-card-rectangle.png"); */
+            background: url("/assets/images/services/solutions-card-rectangle.png");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -873,7 +857,7 @@
 
         /* Inactive look */
         .solutinsCard.inactive {
-            /* background: url("/assets/images/services/solutionscardbg.png"); */
+            background: url("/assets/images/services/solutionscardbg.png");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -1982,14 +1966,11 @@
         p {
             font-size: 1rem !important;
             margin-top: 10px !important;
-
-
-            
         }
 
         .whyChooseCard {
             padding: 30px 20px;
-            /* background: url("./assets/images/services/whychoosecardbg.png"); */
+            background: url("./assets/images/services/whychoosecardbg.png");
             height: 100%;
             width: 100%;
             background-size: cover;
