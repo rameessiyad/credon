@@ -224,8 +224,27 @@ header {
   }
 }
 
+@media (max-width: 900px) and (min-width: 768px) {
+  .CallToAction {
+    .Img {
+      .Cnt {
+        top: 25px;
+
+        h2 {
+          font-size: 26px;
+        }
+
+        h6 {
+          margin-top: 25px !important;
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 768px) {
-  
+
   .Dropdown {
     padding: 25px 0;
 
