@@ -180,7 +180,7 @@ header {
           gap: 10px;
 
           i {
-            color: var(--white-color) !important;
+            color: var(--white-color);
           }
         }
 
@@ -225,6 +225,7 @@ header {
 }
 
 @media (min-width: 768px) {
+  
   .Dropdown {
     padding: 25px 0;
 
