@@ -1,3 +1,15 @@
+:root {
+    --primary-color: #015c93;
+    --secondary-color: #077afd;
+    --primary-light: #888f96;
+    --primary-hover: #d6efff;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --light-gray: #F3F4F6;
+    --dark-gray: #616162;
+    --secondary-font: "Lexend", sans-serif;
+}
+
 .Banner.Insights {
     .Mob {
         display: none !important;
@@ -693,7 +705,7 @@
 @media screen and (max-width: 767px) {
     .menu-box {
         /* padding: 1.7rem 4.5rem; */
-        width: 80%;
+        width: 300px;
         border-radius: 12px;
         font-weight: 600;
         color: white;
