@@ -183,6 +183,11 @@
   }
 }
 @media (max-width: 991px) {
+    .MobileNav {
+      display: flex;
+      align-items: center;
+      gap: 20px !important;
+    }
   a {
     font-size: 15px !important;
   }
